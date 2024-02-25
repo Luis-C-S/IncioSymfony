@@ -8,3 +8,12 @@
 // any CSS you import will output into a single css file (app.css in this case)
 import './styles/app.css';
 import './scss/styles.scss';
+
+// Import only the Bootstrap components we need
+import { Popover } from 'bootstrap';
+
+// Create an example popover
+document.querySelectorAll('[data-bs-toggle="popover"]')
+  .forEach(popover => {
+    new Popover(popover)
+  })
