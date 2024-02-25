@@ -26,7 +26,8 @@ npm run watch         *compila los assets en public/build
 
 php bin/console make:controller DefaultController   
 
-En app.js añadir -> import './scss/styles.scss'; 
+En app.js añadir -> import './scss/styles.scss'; import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 Descomentar .enableSassLoader() de webpack.config 
 
