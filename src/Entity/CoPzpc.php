@@ -13,35 +13,15 @@ class CoPzpc
     #[ORM\GeneratedValue]
     #[ORM\Column]
     private ?int $id = null;
-
-    #[ORM\Column(length: 20)]
     private ?string $ID_country = null;
-
-    #[ORM\Column(type: Types::TEXT)]
     private ?string $product = null;
-
-    #[ORM\Column(type: Types::TEXT)]
     private ?string $ID_product = null;
-
-    #[ORM\Column]
     private ?bool $product_active = null;
-
-    #[ORM\Column(type: Types::TEXT)]
     private ?string $zone = null;
-
-    #[ORM\Column(type: Types::TEXT)]
     private ?string $ID_zone = null;
-
-    #[ORM\Column]
     private ?bool $zone_active = null;
-
-    #[ORM\Column(type: Types::TEXT)]
     private ?string $country = null;
-
-    #[ORM\Column(type: Types::TEXT)]
     private ?string $iso_code = null;
-
-    #[ORM\Column]
     private ?bool $country_active = null;
 
     public function getId(): ?int

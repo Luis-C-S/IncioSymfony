@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping">
+    <entity name="App\Entity\CoPzpc">
+        
+        <id name="id" type="integer">
+            <generator />
+        </id>
+        <field name="ID_country" length="50" />       
+        <field name="product" length="50" />       
+        <field name="ID_product" length="50" />      
+        <field name="product_active" type="boolean" />        
+        <field name="zone" length="50" />         
+        <field name="ID_zone" length="50" />        
+        <field name="zone_active" type="boolean" />        
+        <field name="country" length="50" />        
+        <field name="iso_code" length="50" />        
+        <field name="country_active" type="boolean" /> 
+
+    </entity>
+</doctrine-mapping>
