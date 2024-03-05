@@ -1,5 +1,12 @@
-controllers:
+Entitys:
+    resource:
+        path: ../src/Entity/
+        namespace: App\Entity
+    type: attribute
+
+Controllers:
     resource:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+

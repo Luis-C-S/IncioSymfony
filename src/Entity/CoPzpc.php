@@ -70,6 +70,11 @@ class CoPzpc
         return $this->product_active;
     }
 
+    public function switchProductActive(): void
+    {
+        $this->product_active = !$this->product_active;
+    }
+
     public function setProductActive(bool $product_active): static
     {
         $this->product_active = $product_active;
@@ -148,4 +153,5 @@ class CoPzpc
 
         return $this;
     }
+
 }

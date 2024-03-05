@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Lista de Productos</h1>
+
+    <ul>
+        {% for productData in productTable %}
+            <li>{{ productData.product }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

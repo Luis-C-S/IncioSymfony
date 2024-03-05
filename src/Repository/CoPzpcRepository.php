@@ -46,6 +46,20 @@ class CoPzpcRepository extends ServiceEntityRepository
         return $query->getResult();
     }
 
+    public function updateProductActiveByProductId($productId, $newProductActive)
+    {
+        $qb = $this->createQueryBuilder('c');
+        $qb->update(CoPzpc::class, 'c')
+            ->set('c.product_active', ':newProductActive')
+            ->where('c.product_id = :productId')
+            ->setParameter('newProductActive', $newProductActive)
+            ->setParameter('productId', $productId);
+
+        $query = $qb->getQuery();
+        $query->execute();
+    }
+
+
 
     //    /**
     //     * @return CoPzpc[] Returns an array of CoPzpc objects
