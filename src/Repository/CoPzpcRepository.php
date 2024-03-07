@@ -38,7 +38,7 @@ class CoPzpcRepository extends ServiceEntityRepository
         $entityManager = $this->getEntityManager();
 
         $query = $entityManager->createQuery(
-            'SELECT c.product, c.product_active, c.zone, c.zone_active, c.country, c.country_active
+            'SELECT c.product, c.product_active, c.zone, c.ID_zone, c.zone_active, c.country, c.ID_country, c.country_active
              FROM App\Entity\CoPzpc c
              WHERE c.product = :product'
         )->setParameter('product', $product);      

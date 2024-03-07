@@ -21,11 +21,8 @@ class showDetailAction
         $data = \json_decode($request->getContent(), associative: true);
         $detail = $this->showProductDetailService->__invoke($data['product']);
         return new JsonResponse(
-            [
-                'Details' => [
-                    'product' => $detail
-                ],
-            ],
+            $detail
+            ,
             status: JsonResponse::HTTP_OK
         );
     }

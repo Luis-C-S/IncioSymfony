@@ -35,7 +35,9 @@
 				<table class="table table-primary table-hover">
 					{% for productData in productTable %}
 						<tr>
-							<td class={{ productData.product_active ? "text-success" : "text-danger" }} type="celdaproducto" data-product="{{ productData.product }}">{{ productData.product }}</td>
+							<td class="{{ productData.product_active ? "text-success" : "text-danger" }}" type="celdaproducto" data-product="{{ productData.product }}" onclick="loadProductDetails('{{ productData.product }}')">
+								{{ productData.product }}
+							</td>
 						</tr>
 					{% endfor %}
 				</table>
@@ -46,5 +48,33 @@
 {% endblock %}
 
 {% block javascripts %}
-	{{ encore_entry_script_tags('app') }}
+    {{ encore_entry_script_tags('app') }}
+    
+    <script>
+	function loadProductDetails(product) {
+	            // Realiza una llamada AJAX al controlador
+	            // Puedes utilizar bibliotecas como Axios o el objeto XMLHttpRequest de JavaScript
+	
+	            // Ejemplo con XMLHttpRequest
+	            var xhr = new XMLHttpRequest();
+	            xhr.onreadystatechange = function() {
+	                if (xhr.readyState === XMLHttpRequest.DONE) {
+	                    if (xhr.status === 200) {
+	                        // Manipula la respuesta del controlador
+	                        var response = JSON.parse(xhr.responseText);
+	                        // Aquí puedes actualizar la interfaz de usuario con los detalles del producto
+	                        console.log(response);
+	                    } else {
+	                        // Maneja errores si es necesario
+	                        console.error('Error al cargar detalles del producto');
+	                    }
+	                }
+	            };
+	
+	            // Define la URL del controlador y realiza la solicitud POST o GET según sea necesario
+	                        xhr.open('POST', '/details', true);
+            xhr.setRequestHeader('Content-Type', 'application/json'); // Indica que estás enviando JSON
+            xhr.send(JSON.stringify({ product: product }));
+        }
+    </script>
 {% endblock %}
