@@ -41,10 +41,13 @@ class CoPzpcRepository extends ServiceEntityRepository
             'SELECT c.product, c.product_active, c.zone, c.zone_active, c.country, c.country_active
              FROM App\Entity\CoPzpc c
              WHERE c.product = :product'
-        )->setParameter('product', $product);
+        )->setParameter('product', $product);      
 
-        return $query->getResult();
+        $resultados = $query->getResult();          
+        
+        return $resultados;         
     }
+    
 
     public function updateProductActiveByProductId($productId, $newProductActive)
     {
@@ -86,3 +89,4 @@ class CoPzpcRepository extends ServiceEntityRepository
     //        ;
     //    }
 }
+
