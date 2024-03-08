@@ -45,12 +45,61 @@
 			<div class="col-9" id="detalles">Los detalles irán aquí</div>
 		</div>
 	</div>
+
 {% endblock %}
 
 {% block javascripts %}
     {{ encore_entry_script_tags('app') }}
     
     <script>
+function showdetail(response) {
+        var zones = {};  // Objeto para almacenar información única sobre las zonas
+
+        // Procesar la respuesta y construir el objeto 'zones'
+        response.forEach(function(detail) {
+            if (!zones.hasOwnProperty(detail.zone)) {
+                zones[detail.zone] = {
+                    id: detail.ID_zone,
+                    active: detail.zone_active,
+                    countries: []
+                };
+            }
+
+            // Asegurarse de que no hay duplicados en la lista de países
+            if (zones[detail.zone].countries.indexOf(detail.country) === -1) {
+                zones[detail.zone].countries.push({
+                    country: detail.country,
+                    id: detail.ID_country,
+                    active: detail.country_active
+                });
+            }
+        });
+
+        // Construir la tabla utilizando la información de 'zones'
+        var text = "<h3 class='active'>" + response[1].product + "</h3>" +
+				   "<table class='table table-secondary'>" +
+                   "<tr>" +
+                   "<th>Zona</th>" +
+                   "<th>Paises</th>" +
+                   "</tr>";
+
+        for (var zone in zones) {
+            var zoneClass = zones[zone].active ? 'text-success' : 'text-danger';
+            var countriesHTML = zones[zone].countries.map(function(country) {
+                var countryClass = country.active ? 'text-success' : 'text-danger';
+                return "<span id='" + country.id + "' class='" + countryClass + "'>" + country.country + "</span>";
+            }).join(', ');
+
+            text += "<tr>" +
+                    "<td><span id='" + zones[zone].id + "' class='" + zoneClass + "'>" + zone + "</span></td>" +
+                    "<td>" + countriesHTML + "</td>" +
+                    "</tr>";
+        }
+
+        text += "</table>";
+
+        document.getElementById('detalles').innerHTML = text;
+    }
 	function loadProductDetails(product) {
 	            // Realiza una llamada AJAX al controlador
 	            // Puedes utilizar bibliotecas como Axios o el objeto XMLHttpRequest de JavaScript
@@ -63,6 +112,7 @@
 	                        // Manipula la respuesta del controlador
 	                        var response = JSON.parse(xhr.responseText);
 	                        // Aquí puedes actualizar la interfaz de usuario con los detalles del producto
+							showdetail(response);
 	                        console.log(response);
 	                    } else {
 	                        // Maneja errores si es necesario
