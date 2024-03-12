@@ -30,3 +30,6 @@ services:
         arguments:
             $showProductDetailService: '@App\Service\showProductDetailService'
         tags: ['controller.service_arguments']
+
+
+

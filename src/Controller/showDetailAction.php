@@ -4,12 +4,13 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
+use App\Controller\ApiController;
 use App\Service\showProductDetailService;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Attribute\Route;
 
-class showDetailAction
+class showDetailAction extends ApiController
 {
     public function __construct(private showProductDetailService $showProductDetailService)
     {
@@ -20,10 +21,6 @@ class showDetailAction
     {
         $data = \json_decode($request->getContent(), associative: true);
         $detail = $this->showProductDetailService->__invoke($data['product']);
-        return new JsonResponse(
-            $detail
-            ,
-            status: JsonResponse::HTTP_OK
-        );
+        return $this->createResponse($detail,);           
     }
 }

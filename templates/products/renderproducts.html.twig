@@ -52,7 +52,14 @@
     {{ encore_entry_script_tags('app') }}
     
     <script>
-function showdetail(response) {
+	function updateCountry(element) {
+    	var countryActive = element.getAttribute('country_active');
+		if(countryActive){
+			element.className = "text-danger"
+		};
+	}
+	
+	function showdetail(response) {
         var zones = {};  // Objeto para almacenar información única sobre las zonas
 
         // Procesar la respuesta y construir el objeto 'zones'
@@ -77,17 +84,17 @@ function showdetail(response) {
 
         // Construir la tabla utilizando la información de 'zones'
         var text = "<h3 class='active'>" + response[1].product + "</h3>" +
-				   "<table class='table table-secondary'>" +
+				   "<table class='table table-secondary w-100'>" +
                    "<tr>" +
-                   "<th>Zona</th>" +
-                   "<th>Paises</th>" +
+                   "<th class ='col-2'>Zona</th>" +
+                   "<th class ='col-10'>Paises</th>" +
                    "</tr>";
 
         for (var zone in zones) {
             var zoneClass = zones[zone].active ? 'text-success' : 'text-danger';
             var countriesHTML = zones[zone].countries.map(function(country) {
                 var countryClass = country.active ? 'text-success' : 'text-danger';
-                return "<span id='" + country.id + "' class='" + countryClass + "'>" + country.country + "</span>";
+                return "<span id='" + country.id + "' class='" + countryClass + "' country_active='" + country.active + "' onclick='updateCountry(this)'>" + country.country + "</span>";
             }).join(', ');
 
             text += "<tr>" +
