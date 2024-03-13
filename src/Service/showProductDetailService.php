@@ -6,15 +6,13 @@ use App\Repository\CoPzpcRepository;
 
 class showProductDetailService
 {
-    private $coPzpcRepository;
- 
-    public function __construct(CoPzpcRepository $coPzpcRepository)
+    public function __construct(private CoPzpcRepository $coPzpcRepository)
     {
         $this->coPzpcRepository = $coPzpcRepository;
     }
 
     public function __invoke($product)
-    {            
-       return $this->coPzpcRepository->showDetailTable($product);        
+    {
+        return $this->coPzpcRepository->showDetailTable($product);
     }
 }

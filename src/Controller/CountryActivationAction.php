@@ -8,6 +8,7 @@ use App\Repository\CoPzpcRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Routing\Attribute\Route;
+use Symfony\Component\HttpFoundation\Request;
 
 class CountryActivationAction
 {
@@ -20,11 +21,12 @@ class CountryActivationAction
         $this->entityManager = $entityManager;
     }
 
-    #[Route('/CountryActivation/{id_country}', name: 'app_CountryActivation', methods: ['POST'])]
-    public function __invoke(int $id_country)
+    #[Route('/CountryActivation', name: 'app_CountryActivation', methods: ['POST'])]
+   
+    public function __invoke(Request $request)
     {
-        // Llama al método switchCountryActive en el repositorio
-        $this->coPzpcRepository->switchCountryActive($id_country);
+        $data = \json_decode($request->getContent(), associative: true);
+        $this->coPzpcRepository->switchCountryActive($data['ID_country'], $data['newCountry_Active']);
         $this->entityManager->flush(); // para persistir los cambios en la base de datos
 
         return new JsonResponse(['message' => 'Country activation switched successfully.'], JsonResponse::HTTP_OK);

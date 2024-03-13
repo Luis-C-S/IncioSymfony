@@ -31,5 +31,9 @@ services:
             $showProductDetailService: '@App\Service\showProductDetailService'
         tags: ['controller.service_arguments']
 
-
+    App\Controller\CountryActivationAction:
+        arguments:
+            $coPzpcRepository: '@App\Repository\CoPzpcRepository'
+            $entityManager: '@doctrine.orm.entity_manager'
+        tags: ['controller.service_arguments']
 

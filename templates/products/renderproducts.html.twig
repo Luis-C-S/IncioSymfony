@@ -52,11 +52,44 @@
     {{ encore_entry_script_tags('app') }}
     
     <script>
-	function updateCountry(element) {
-    	var countryActive = element.getAttribute('country_active');
-		if(countryActive){
-			element.className = "text-danger"
+	//evento onclick de country. Cambia el color y actualiza el estado en BBDD de country
+	function updateCountry(element){
+		var countryActive = element.getAttribute('country_active'); 
+		console.log(countryActive);
+		var newActive = countryActive === 'true'? false : true;
+		console.log(newActive);
+		element.setAttribute('country_active', newActive);
+		
+		console.log('nuevo valor en elemento = ' + element.getAttribute('country_active'));
+
+		var idCountry = element.getAttribute('id');
+
+
+		if(newActive===false){
+			element.className = "text-danger";
+			
+		}else{
+			element.className = "text-success"
+			
 		};
+
+		var xhr = new XMLHttpRequest();
+	            xhr.onreadystatechange = function() {
+	                if (xhr.readyState === XMLHttpRequest.DONE) {
+	                    if (xhr.status === 200) {
+	                        // Manipula la respuesta del controlador
+	                       console.log('estado del pais actualizado!');
+	                    } else {
+	                        // Maneja errores si es necesario
+	                        console.error('Error al actualizar estado del país');
+	                    }
+	                }
+	            };
+				  // Define la URL del controlador y realiza la solicitud POST o GET según sea necesario
+	        xhr.open('POST', '/CountryActivation', true);
+            xhr.setRequestHeader('Content-Type', 'application/json'); // Indica que estás enviando JSON
+            xhr.send(JSON.stringify({ID_country: idCountry, newCountry_Active: newActive}));
+		
 	}
 	
 	function showdetail(response) {

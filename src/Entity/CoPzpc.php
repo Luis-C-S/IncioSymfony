@@ -154,4 +154,9 @@ class CoPzpc
         return $this;
     }
 
+    public function switchCountryActive(): void
+    {
+        $this->country_active = !$this->country_active;
+    }
+
 }

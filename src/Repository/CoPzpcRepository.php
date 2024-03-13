@@ -49,14 +49,14 @@ class CoPzpcRepository extends ServiceEntityRepository
     }
     
 
-    public function updateProductActiveByProductId($productId, $newProductActive)
+    public function switchCountryActive($idCountry, $newCountryActive)
     {
         $qb = $this->createQueryBuilder('c');
         $qb->update(CoPzpc::class, 'c')
-            ->set('c.product_active', ':newProductActive')
-            ->where('c.product_id = :productId')
-            ->setParameter('newProductActive', $newProductActive)
-            ->setParameter('productId', $productId);
+            ->set('c.country_active', ':newCountry_Active')
+            ->where('c.ID_country= :ID_country')
+            ->setParameter('newCountry_Active', $newCountryActive)
+            ->setParameter('ID_country', $idCountry);
 
         $query = $qb->getQuery();
         $query->execute();
