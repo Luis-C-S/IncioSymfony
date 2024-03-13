@@ -62,6 +62,20 @@ class CoPzpcRepository extends ServiceEntityRepository
         $query->execute();
     }
 
+    public function switchZoneActive($idZone, $newZoneActive)
+    {
+        $qb = $this->createQueryBuilder('c');
+        $qb->update(CoPzpc::class, 'c')
+            ->set('c.zone_active', ':newZone_Active')
+            ->where('c.ID_zone= :ID_zone')
+            ->setParameter('newZone_Active', $newZoneActive)
+            ->setParameter('ID_zone', $idZone);
+
+        $query = $qb->getQuery();
+        $query->execute();
+    }
+
+
 
 
     //    /**

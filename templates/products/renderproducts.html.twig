@@ -52,16 +52,38 @@
     {{ encore_entry_script_tags('app') }}
     
     <script>
-	//evento onclick de country. Cambia el color y actualiza el estado en BBDD de country
+	//evento onclick de zone. Actualiza el estado en BBDD de zone y recarga productdetails
+	function updateZone(element) {
+    var zoneActive = element.getAttribute('zone_active');     
+    var newActive = zoneActive === 'true' ? false : true;
+    var idZone = element.getAttribute('id');
+    var Product = element.getAttribute('Product');
+
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status === 200) {
+                loadProductDetails(Product); // Llamada a la función con el valor de Product
+                console.log('estado de la zona actualizado!');
+            } else {
+                console.error('Error al actualizar estado de la zona');
+            }
+        }
+    };
+
+    // Define la URL del controlador y realiza la solicitud POST o GET según sea necesario
+    xhr.open('POST', '/ZoneActivation', true);
+    xhr.setRequestHeader('Content-Type', 'application/json'); // Indica que estás enviando JSON
+    xhr.send(JSON.stringify({ ID_zone: idZone, newZone_Active: newActive }));
+}
+
+
+
+	
 	function updateCountry(element){
 		var countryActive = element.getAttribute('country_active'); 
-		console.log(countryActive);
 		var newActive = countryActive === 'true'? false : true;
-		console.log(newActive);
 		element.setAttribute('country_active', newActive);
-		
-		console.log('nuevo valor en elemento = ' + element.getAttribute('country_active'));
-
 		var idCountry = element.getAttribute('id');
 
 
@@ -77,10 +99,8 @@
 	            xhr.onreadystatechange = function() {
 	                if (xhr.readyState === XMLHttpRequest.DONE) {
 	                    if (xhr.status === 200) {
-	                        // Manipula la respuesta del controlador
 	                       console.log('estado del pais actualizado!');
 	                    } else {
-	                        // Maneja errores si es necesario
 	                        console.error('Error al actualizar estado del país');
 	                    }
 	                }
@@ -99,6 +119,8 @@
         response.forEach(function(detail) {
             if (!zones.hasOwnProperty(detail.zone)) {
                 zones[detail.zone] = {
+					product: detail.product,
+					productActive: detail.product_active,
                     id: detail.ID_zone,
                     active: detail.zone_active,
                     countries: []
@@ -108,7 +130,9 @@
             // Asegurarse de que no hay duplicados en la lista de países
             if (zones[detail.zone].countries.indexOf(detail.country) === -1) {
                 zones[detail.zone].countries.push({
-                    country: detail.country,
+                    productActive: detail.product_active,
+					zoneActive: detail.zone_active,
+					country: detail.country,
                     id: detail.ID_country,
                     active: detail.country_active
                 });
@@ -124,16 +148,16 @@
                    "</tr>";
 
         for (var zone in zones) {
-            var zoneClass = zones[zone].active ? 'text-success' : 'text-danger';
+            var zoneClass = (zones[zone].active && zones[zone].productActive) ? 'text-success' : 'text-danger';
             var countriesHTML = zones[zone].countries.map(function(country) {
-                var countryClass = country.active ? 'text-success' : 'text-danger';
+                var countryClass = (country.active && country.productActive && country.zoneActive) ? 'text-success' : 'text-danger';
                 return "<span id='" + country.id + "' class='" + countryClass + "' country_active='" + country.active + "' onclick='updateCountry(this)'>" + country.country + "</span>";
             }).join(', ');
 
             text += "<tr>" +
-                    "<td><span id='" + zones[zone].id + "' class='" + zoneClass + "'>" + zone + "</span></td>" +
+                    "<td><span id='" + zones[zone].id + "' class='" + zoneClass + "' onclick='updateZone(this)' zone_active='" + zones[zone].active + "' Product='" + zones[zone].product + "'>" + zone + "</span></td>" +
                     "<td>" + countriesHTML + "</td>" +
-                    "</tr>";
+                    "</tr>";					
         }
 
         text += "</table>";
