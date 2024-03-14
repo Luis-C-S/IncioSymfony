@@ -52,33 +52,66 @@
     {{ encore_entry_script_tags('app') }}
     
     <script>
+	function updateProduct(element) {
+		console.log(element.innerHTML);
+		console.log(element.getAttribute('product'));
+		console.log(element.getAttribute('productActive'));
+		
+
+		var product = element.getAttribute('product');
+		var productActive = element.getAttribute('productActive');
+		var newActive = productActive === 'true' ? false : true
+		var productClass = newActive? 'text-success' : 'text-danger';
+		var productHtml = document.querySelector("[data-product='" + product + "']");
+
+		productHtml.setAttribute('class', productClass);
+
+
+		var xhr = new XMLHttpRequest();
+		xhr.onreadystatechange = function() {
+			if (xhr.readyState === XMLHttpRequest.DONE) {
+				if (xhr.status === 200) {
+					loadProductDetails(product); 
+					console.log('estado del producto actualizado!');
+				} else {
+					console.error('Error al actualizar estado del producto');
+				}
+			}
+		};
+
+		// Define la URL del controlador y realiza la solicitud POST o GET según sea necesario
+		xhr.open('POST', '/ProductActivation', true);
+		xhr.setRequestHeader('Content-Type', 'application/json'); // Indica que estás enviando JSON
+		xhr.send(JSON.stringify({ Product: product, ProductNewActive: newActive }));
+	}
+
+
+
+
 	//evento onclick de zone. Actualiza el estado en BBDD de zone y recarga productdetails
 	function updateZone(element) {
-    var zoneActive = element.getAttribute('zone_active');     
-    var newActive = zoneActive === 'true' ? false : true;
-    var idZone = element.getAttribute('id');
-    var Product = element.getAttribute('Product');
+		var zoneActive = element.getAttribute('zone_active');     
+		var newActive = zoneActive === 'true' ? false : true;
+		var idZone = element.getAttribute('id');
+		var Product = element.getAttribute('Product');
 
-    var xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function() {
-        if (xhr.readyState === XMLHttpRequest.DONE) {
-            if (xhr.status === 200) {
-                loadProductDetails(Product); // Llamada a la función con el valor de Product
-                console.log('estado de la zona actualizado!');
-            } else {
-                console.error('Error al actualizar estado de la zona');
-            }
-        }
-    };
+		var xhr = new XMLHttpRequest();
+		xhr.onreadystatechange = function() {
+			if (xhr.readyState === XMLHttpRequest.DONE) {
+				if (xhr.status === 200) {
+					loadProductDetails(Product); // Llamada a la función con el valor de Product
+					console.log('estado de la zona actualizado!');
+				} else {
+					console.error('Error al actualizar estado de la zona');
+				}
+			}
+		};
 
-    // Define la URL del controlador y realiza la solicitud POST o GET según sea necesario
-    xhr.open('POST', '/ZoneActivation', true);
-    xhr.setRequestHeader('Content-Type', 'application/json'); // Indica que estás enviando JSON
-    xhr.send(JSON.stringify({ ID_zone: idZone, newZone_Active: newActive }));
-}
-
-
-
+		// Define la URL del controlador y realiza la solicitud POST o GET según sea necesario
+		xhr.open('POST', '/ZoneActivation', true);
+		xhr.setRequestHeader('Content-Type', 'application/json'); // Indica que estás enviando JSON
+		xhr.send(JSON.stringify({ ID_zone: idZone, newZone_Active: newActive }));
+	}
 	
 	function updateCountry(element){
 		var countryActive = element.getAttribute('country_active'); 
@@ -140,18 +173,22 @@
         });
 
         // Construir la tabla utilizando la información de 'zones'
-        var text = "<h3 class='active'>" + response[1].product + "</h3>" +
-				   "<table class='table table-secondary w-100'>" +
-                   "<tr>" +
-                   "<th class ='col-2'>Zona</th>" +
-                   "<th class ='col-10'>Paises</th>" +
-                   "</tr>";
+        var text = "<div class='row pt-4'>" + 				   		
+							"<div class='col-8'><h3 class='active'>" + response[1].product + "</h3></div>" +
+							"<div class='col-4'><button class=" + (response[1].product_active? "'btn btn-outline-danger'" : "'btn btn-outline-success'") + " onclick= 'updateProduct(this)' productActive= '" + response[1].product_active + "' product= '" + response[1].product + "'>" + (response[1].product_active? 'Desactivar producto' : 'Activar producto') + "</button></div>" +						
+					"</div>" +
+				   	"<table class='table table-secondary w-100'>" +
+                   	"<tr>" +
+                  	"<th class ='col-2'>Zona</th>" +
+                   	"<th class ='col-10'>Paises</th>" +
+                  	"</tr>";
+					console.log('productActive = ' + response[1].product_active);
 
         for (var zone in zones) {
             var zoneClass = (zones[zone].active && zones[zone].productActive) ? 'text-success' : 'text-danger';
             var countriesHTML = zones[zone].countries.map(function(country) {
                 var countryClass = (country.active && country.productActive && country.zoneActive) ? 'text-success' : 'text-danger';
-                return "<span id='" + country.id + "' class='" + countryClass + "' country_active='" + country.active + "' onclick='updateCountry(this)'>" + country.country + "</span>";
+                return "<span id='" + country.id + "' class='" + countryClass + "' product_active='" + country.productActive + "' country_active='" + country.active + "' onclick='" + ((country.productActive && country.zoneActive) ? "updateCountry(this)" : "") + "'>" + country.country + "</span>";
             }).join(', ');
 
             text += "<tr>" +

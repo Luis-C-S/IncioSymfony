@@ -75,6 +75,19 @@ class CoPzpcRepository extends ServiceEntityRepository
         $query->execute();
     }
 
+    public function switchProductActive($Product, $newProductActive)
+    {
+        $qb = $this->createQueryBuilder('c');
+        $qb->update(CoPzpc::class, 'c')
+            ->set('c.product_active', ':newProduct_Active')
+            ->where('c.product= :Product')
+            ->setParameter('newProduct_Active', $newProductActive)
+            ->setParameter('Product', $Product);
+
+        $query = $qb->getQuery();
+        $query->execute();
+    }
+
 
 
 

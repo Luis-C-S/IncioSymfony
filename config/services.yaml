@@ -43,3 +43,9 @@ services:
             $entityManager: '@doctrine.orm.entity_manager'
         tags: ['controller.service_arguments']
 
+    App\Controller\ProductActivationAction:
+        arguments:
+            $coPzpcRepository: '@App\Repository\CoPzpcRepository'
+            $entityManager: '@doctrine.orm.entity_manager'
+        tags: ['controller.service_arguments']
+
