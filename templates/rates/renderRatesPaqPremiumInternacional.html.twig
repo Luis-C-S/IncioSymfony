@@ -1,0 +1,95 @@
+{% extends 'base.html.twig' %}
+{% block title %}Configuración productos
+{% endblock %}
+{% block body %}
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Configuracion
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Internacional
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li>
+								<a class="dropdown-item" href="#">Nacional</a>
+							</li>
+							<li>
+								<a class="dropdown-item" href="{{path('app_products')}}">Internacional</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-6">
+            <div class="row" style="height: 50px"></div>
+            <div class="row" style="height: 70px text-align: bottom"><h3>Precios   {{rates[1].product}}</h3></div>
+            <div id='ratesTable'></div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
+
+
+
+{% block javascripts %}
+    {{ encore_entry_script_tags('app') }}
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+             
+        var rates = {{ rates|json_encode|raw }};
+        var zonesSet = new Set();
+
+        for (var i = 0; i < rates.length; i++) {
+            zonesSet.add(rates[i].zone);
+        }
+
+        var zones = Array.from(zonesSet);        
+        var weights = ['00250','00500','01000','01500','02000','Por kg adicional'];
+
+        var html = '<Table class="table table-primary table-hover table-fixed table-sm"><tr style="height: 50px"><th class="table-light col-2">Peso</th>';
+        for (var z = 0; z < zones.length; z++){
+            html += '<th class="col-2">' + zones[z] + '</th>';
+        }
+
+
+        for (var i = 0; i < weights.length; i++) {
+            html += '<tr style="height: 50px;"><td class="table-light text-bold">' + weights[i] + '</td>';
+            for (var z = 0; z < zones.length; z++){   
+                var result = 0             
+                for (var index = 0;index < rates.length; index++){
+                    const element = rates[index];
+                    if (element.zone === zones[z] && element.weight === weights[i]){
+                        result = index;
+                        break; 
+                    }
+                }
+                html += '<td><input class="form-control" style="text-align: right" value="' + rates[result].rate + '" id="' + rates[result].id + '"></td>';                
+            }
+
+            html += '</tr>';
+        };
+
+        html += '</table>'
+
+
+        document.getElementById('ratesTable').innerHTML = html;
+        console.log(html);    
+        console.log(weights);  
+        });
+    </script>
+{% endblock %}
+

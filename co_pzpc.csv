@@ -1,0 +1,883 @@
+id;id_country;product;id_product;product_active;zone;id_zone;zone_active;country;iso_code;country_active
+1;S0411_DE;Paq Premium Internacional;S0411;1;Europa 1;S0411_Europa 1;1;Alemania;DE;1
+2;S0411_AT;Paq Premium Internacional;S0411;1;Europa 1;S0411_Europa 1;1;Austria;AT;1
+3;S0411_GG;Paq Premium Internacional;S0411;1;Europa 1;S0411_Europa 1;1;Bahía De Guernsey;GG;1
+4;S0411_BE;Paq Premium Internacional;S0411;1;Europa 1;S0411_Europa 1;1;Bélgica;BE;1
+5;S0411_DK;Paq Premium Internacional;S0411;1;Europa 1;S0411_Europa 1;1;Dinamarca;DK;1
+6;S0411_FR;Paq Premium Internacional;S0411;1;Europa 1;S0411_Europa 1;1;Francia;FR;1
+7;S0411_GI;Paq Premium Internacional;S0411;1;Europa 1;S0411_Europa 1;1;Gibraltar;GI;1
+8;S0411_GR;Paq Premium Internacional;S0411;1;Europa 1;S0411_Europa 1;1;Grecia;GR;1
+9;S0411_IE;Paq Premium Internacional;S0411;1;Europa 1;S0411_Europa 1;1;Irlanda;IE;1
+10;S0411_IT;Paq Premium Internacional;S0411;1;Europa 1;S0411_Europa 1;1;Italia;IT;1
+11;S0411_JE;Paq Premium Internacional;S0411;1;Europa 1;S0411_Europa 1;1;Jersey;JE;1
+12;S0411_LU;Paq Premium Internacional;S0411;1;Europa 1;S0411_Europa 1;1;Luxemburgo;LU;1
+13;S0411_MC;Paq Premium Internacional;S0411;1;Europa 1;S0411_Europa 1;1;Mónaco;MC;1
+14;S0411_NO;Paq Premium Internacional;S0411;1;Europa 1;S0411_Europa 1;1;Noruega;NO;1
+15;S0411_NL;Paq Premium Internacional;S0411;1;Europa 1;S0411_Europa 1;1;Países Bajos;NL;1
+16;S0411_PT;Paq Premium Internacional;S0411;1;Europa 1;S0411_Europa 1;1;Portugal;PT;1
+17;S0411_GB;Paq Premium Internacional;S0411;1;Europa 1;S0411_Europa 1;1;Reino Unido;GB;1
+18;S0411_SM;Paq Premium Internacional;S0411;1;Europa 1;S0411_Europa 1;1;San Marino;SM;1
+19;S0411_SE;Paq Premium Internacional;S0411;1;Europa 1;S0411_Europa 1;1;Suecia;SE;1
+20;S0411_CH;Paq Premium Internacional;S0411;1;Europa 1;S0411_Europa 1;1;Suiza;CH;1
+21;S0411_VA;Paq Premium Internacional;S0411;1;Europa 1;S0411_Europa 1;1;Vaticano;VA;1
+22;S0411_DZ;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Argelia;DZ;1
+23;S0411_BG;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Bulgaria;BG;1
+24;S0411_CY;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Chipre;CY;1
+25;S0411_HR;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Croacia;HR;1
+26;S0411_SK;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Eslovaquia;SK;1
+27;S0411_SI;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Eslovenia;SI;1
+28;S0411_EE;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Estonia;EE;1
+29;S0411_FI;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Finlandia;FI;1
+30;S0411_GL;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Groenlandia;GL;1
+31;S0411_HU;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Hungría;HU;1
+32;S0411_IS;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Islandia;IS;1
+33;S0411_FO;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Islas Feroe;FO;1
+34;S0411_XK;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Kosovo;XK;1
+35;S0411_LV;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Letonia;LV;1
+36;S0411_LI;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Liechtenstein;LI;1
+37;S0411_LT;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Lituania;LT;1
+38;S0411_MA;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Marruecos;MA;1
+39;S0411_ME;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Montenegro;ME;1
+40;S0411_PL;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Polonia;PL;1
+41;S0411_CZ;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;República Checa;CZ;1
+42;S0411_RO;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Rumanía;RO;1
+43;S0411_RU;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Rusia;RU;1
+44;S0411_RS;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Serbia;RS;1
+45;S0411_TN;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Túnez;TN;1
+46;S0411_UA;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Ucrania;UA;1
+47;S0411_TR;Paq Premium Internacional;S0411;1;Europa 2;S0411_Europa 2;1;Turquía;TR;1
+48;S0411_AG;Paq Premium Internacional;S0411;1;América;S0411_América;1;Antigua Y Barbuda;AG;1
+49;S0411_AR;Paq Premium Internacional;S0411;1;América;S0411_América;1;Argentina;AR;1
+50;S0411_AW;Paq Premium Internacional;S0411;1;América;S0411_América;1;Aruba;AW;1
+51;S0411_BS;Paq Premium Internacional;S0411;1;América;S0411_América;1;Bahamas;BS;1
+52;S0411_BB;Paq Premium Internacional;S0411;1;América;S0411_América;1;Barbados;BB;1
+53;S0411_BZ;Paq Premium Internacional;S0411;1;América;S0411_América;1;Belice;BZ;1
+54;S0411_BM;Paq Premium Internacional;S0411;1;América;S0411_América;1;Bermudas;BM;1
+55;S0411_BO;Paq Premium Internacional;S0411;1;América;S0411_América;1;Bolivia;BO;1
+56;S0411_BR;Paq Premium Internacional;S0411;1;América;S0411_América;1;Brasil;BR;1
+57;S0411_CA;Paq Premium Internacional;S0411;1;América;S0411_América;1;Canadá;CA;1
+58;S0411_CL;Paq Premium Internacional;S0411;1;América;S0411_América;1;Chile;CL;1
+59;S0411_CO;Paq Premium Internacional;S0411;1;América;S0411_América;1;Colombia;CO;1
+60;S0411_CR;Paq Premium Internacional;S0411;1;América;S0411_América;1;Costa Rica;CR;1
+61;S0411_CU;Paq Premium Internacional;S0411;1;América;S0411_América;1;Cuba;CU;1
+62;S0411_CW;Paq Premium Internacional;S0411;1;América;S0411_América;1;Curaçao;CW;1
+63;S0411_DM;Paq Premium Internacional;S0411;1;América;S0411_América;1;Dominica;DM;1
+64;S0411_EC;Paq Premium Internacional;S0411;1;América;S0411_América;1;Ecuador;EC;1
+65;S0411_SV;Paq Premium Internacional;S0411;1;América;S0411_América;1;El Salvador;SV;1
+66;S0411_US;Paq Premium Internacional;S0411;1;América;S0411_América;1;Estados Unidos;US;1
+67;S0411_GD;Paq Premium Internacional;S0411;1;América;S0411_América;1;Granada;GD;1
+68;S0411_GT;Paq Premium Internacional;S0411;1;América;S0411_América;1;Guatemala;GT;1
+69;S0411_GY;Paq Premium Internacional;S0411;1;América;S0411_América;1;Guyana;GY;1
+70;S0411_HT;Paq Premium Internacional;S0411;1;América;S0411_América;1;Haití;HT;1
+71;S0411_HN;Paq Premium Internacional;S0411;1;América;S0411_América;1;Honduras;HN;1
+72;S0411_KY;Paq Premium Internacional;S0411;1;América;S0411_América;1;Islas Caimán;KY;1
+73;S0411_JM;Paq Premium Internacional;S0411;1;América;S0411_América;1;Jamaica;JM;1
+74;S0411_MX;Paq Premium Internacional;S0411;1;América;S0411_América;1;México;MX;1
+75;S0411_NI;Paq Premium Internacional;S0411;1;América;S0411_América;1;Nicaragua;NI;1
+76;S0411_PA;Paq Premium Internacional;S0411;1;América;S0411_América;1;Panamá;PA;1
+77;S0411_PY;Paq Premium Internacional;S0411;1;América;S0411_América;1;Paraguay;PY;1
+78;S0411_PE;Paq Premium Internacional;S0411;1;América;S0411_América;1;Perú;PE;1
+79;S0411_DO;Paq Premium Internacional;S0411;1;América;S0411_América;1;Rep. Dominicana;DO;1
+80;S0411_KN;Paq Premium Internacional;S0411;1;América;S0411_América;1;San Kitts Y Nevis;KN;1
+81;S0411_VC;Paq Premium Internacional;S0411;1;América;S0411_América;1;San Vicente Y Granadinas;VC;1
+82;S0411_LC;Paq Premium Internacional;S0411;1;América;S0411_América;1;Santa Lucía;LC;1
+83;S0411_SR;Paq Premium Internacional;S0411;1;América;S0411_América;1;Surinam;SR;1
+84;S0411_TT;Paq Premium Internacional;S0411;1;América;S0411_América;1;Trinidad Y Tobago;TT;1
+85;S0411_UY;Paq Premium Internacional;S0411;1;América;S0411_América;1;Uruguay;UY;1
+86;S0411_VE;Paq Premium Internacional;S0411;1;América;S0411_América;1;Venezuela;VE;1
+87;S0411_AF;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Afganistán;AF;1
+88;S0411_SA;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Arabia Saudí;SA;1
+89;S0411_AM;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Armenia;AM;1
+90;S0411_AU;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Australia;AU;1
+91;S0411_AZ;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Azerbaiyán;AZ;1
+92;S0411_BH;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Bahréin;BH;1
+93;S0411_BD;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Bangladesh;BD;1
+94;S0411_BN;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Brunéi;BN;1
+95;S0411_BT;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Bután;BT;1
+96;S0411_KH;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Camboya;KH;1
+97;S0411_CN;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;China;CN;1
+98;S0411_KP;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Corea Del Norte;KP;1
+99;S0411_KR;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Corea Del Sur;KR;1
+100;S0411_AE;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Emiratos Árabes;AE;1
+101;S0411_PH;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Filipinas;PH;1
+102;S0411_GE;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Georgia;GE;1
+103;S0411_HK;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Hong Kong;HK;1
+104;S0411_IN;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;India;IN;1
+105;S0411_ID;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Indonesia;ID;1
+106;S0411_IR;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Irán;IR;1
+107;S0411_IQ;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Iraq;IQ;1
+108;S0411_FJ;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Islas Fidji;FJ;1
+109;S0411_MH;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Islas Marshall;MH;1
+110;S0411_SB;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Islas Salomón;SB;1
+111;S0411_IL;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Israel;IL;1
+112;S0411_JP;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Japón;JP;1
+113;S0411_JO;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Jordania;JO;1
+114;S0411_KZ;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Kazajstán;KZ;1
+115;S0411_KG;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Kirguistán;KG;1
+116;S0411_KI;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Kiribati;KI;1
+117;S0411_KW;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Kuwait;KW;1
+118;S0411_LA;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Laos;LA;1
+119;S0411_LB;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Líbano;LB;1
+120;S0411_MO;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Macao;MO;1
+121;S0411_MY;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Malasia;MY;1
+122;S0411_MV;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Maldivas;MV;1
+123;S0411_MN;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Mongolia;MN;1
+124;S0411_MM;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Myanmar;MM;1
+125;S0411_NR;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Nauru;NR;1
+126;S0411_NP;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Nepal;NP;1
+127;S0411_NC;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Nueva Caledonia;NC;1
+128;S0411_NZ;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Nueva Zelanda;NZ;1
+129;S0411_OM;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Omán;OM;1
+130;S0411_PK;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Pakistán;PK;1
+131;S0411_PW;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Palaos;PW;1
+132;S0411_PG;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Papúa Nueva Guinea;PG;1
+133;S0411_QA;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Qatar;QA;1
+134;S0411_WS;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Samoa;WS;1
+135;S0411_SG;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Singapur;SG;1
+136;S0411_SY;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Siria;SY;1
+137;S0411_LK;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Sri Lanka;LK;1
+138;S0411_TH;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Tailandia;TH;1
+139;S0411_TW;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Taiwán;TW;1
+140;S0411_TJ;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Tayikistán;TJ;1
+141;S0411_PS;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Territorios Palestinos;PS;1
+142;S0411_TL;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Timor Oriental;TL;1
+143;S0411_TO;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Tonga;TO;1
+144;S0411_TM;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Turkmenistán;TM;1
+145;S0411_TV;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Tuvalu;TV;1
+146;S0411_UZ;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Uzbekistán;UZ;1
+147;S0411_VU;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Vanuatu;VU;1
+148;S0411_VN;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Vietnam;VN;1
+149;S0411_YE;Paq Premium Internacional;S0411;1;Asia Oceanía;S0411_Asia Oceanía;1;Yemen;YE;1
+150;S0411_AO;Paq Premium Internacional;S0411;1;África;S0411_África;1;Angola;AO;1
+151;S0411_BJ;Paq Premium Internacional;S0411;1;África;S0411_África;1;Benin;BJ;1
+152;S0411_BW;Paq Premium Internacional;S0411;1;África;S0411_África;1;Botswana;BW;1
+153;S0411_BF;Paq Premium Internacional;S0411;1;África;S0411_África;1;Burkina Faso;BF;1
+154;S0411_BI;Paq Premium Internacional;S0411;1;África;S0411_África;1;Burundi;BI;1
+155;S0411_CV;Paq Premium Internacional;S0411;1;África;S0411_África;1;Cabo Verde;CV;1
+156;S0411_CM;Paq Premium Internacional;S0411;1;África;S0411_África;1;Camerún;CM;1
+157;S0411_TD;Paq Premium Internacional;S0411;1;África;S0411_África;1;Chad;TD;1
+158;S0411_KM;Paq Premium Internacional;S0411;1;África;S0411_África;1;Comores;KM;1
+159;S0411_CI;Paq Premium Internacional;S0411;1;África;S0411_África;1;Costa De Marfil;CI;1
+160;S0411_DJ;Paq Premium Internacional;S0411;1;África;S0411_África;1;Djibuti;DJ;1
+161;S0411_EG;Paq Premium Internacional;S0411;1;África;S0411_África;1;Egipto;EG;1
+162;S0411_ER;Paq Premium Internacional;S0411;1;África;S0411_África;1;Eritrea;ER;1
+163;S0411_ET;Paq Premium Internacional;S0411;1;África;S0411_África;1;Etiopía;ET;1
+164;S0411_GA;Paq Premium Internacional;S0411;1;África;S0411_África;1;Gabón;GA;1
+165;S0411_GM;Paq Premium Internacional;S0411;1;África;S0411_África;1;Gambia;GM;1
+166;S0411_GH;Paq Premium Internacional;S0411;1;África;S0411_África;1;Ghana;GH;1
+167;S0411_GN;Paq Premium Internacional;S0411;1;África;S0411_África;1;Guinea;GN;1
+168;S0411_GW;Paq Premium Internacional;S0411;1;África;S0411_África;1;Guinea Bissau;GW;1
+169;S0411_GQ;Paq Premium Internacional;S0411;1;África;S0411_África;1;Guinea Ecuatorial;GQ;1
+170;S0411_KE;Paq Premium Internacional;S0411;1;África;S0411_África;1;Kenia;KE;1
+171;S0411_LS;Paq Premium Internacional;S0411;1;África;S0411_África;1;Lesoto;LS;1
+172;S0411_LR;Paq Premium Internacional;S0411;1;África;S0411_África;1;Liberia;LR;1
+173;S0411_LY;Paq Premium Internacional;S0411;1;África;S0411_África;1;Libia;LY;1
+174;S0411_MG;Paq Premium Internacional;S0411;1;África;S0411_África;1;Madagascar;MG;1
+175;S0411_MW;Paq Premium Internacional;S0411;1;África;S0411_África;1;Malawi;MW;1
+176;S0411_ML;Paq Premium Internacional;S0411;1;África;S0411_África;1;Mali;ML;1
+177;S0411_MR;Paq Premium Internacional;S0411;1;África;S0411_África;1;Mauritania;MR;1
+178;S0411_MZ;Paq Premium Internacional;S0411;1;África;S0411_África;1;Mozambique;MZ;1
+179;S0411_NA;Paq Premium Internacional;S0411;1;África;S0411_África;1;Naminia;NA;1
+180;S0411_NE;Paq Premium Internacional;S0411;1;África;S0411_África;1;Níger;NE;1
+181;S0411_NG;Paq Premium Internacional;S0411;1;África;S0411_África;1;Nigeria;NG;1
+182;S0411_CF;Paq Premium Internacional;S0411;1;África;S0411_África;1;Rep. Centroafricana;CF;1
+183;S0411_CG;Paq Premium Internacional;S0411;1;África;S0411_África;1;Rep. Congo;CG;1
+184;S0411_CD;Paq Premium Internacional;S0411;1;África;S0411_África;1;Rep. Dem. Congo;CD;1
+185;S0411_RW;Paq Premium Internacional;S0411;1;África;S0411_África;1;Ruanda;RW;1
+186;S0411_SN;Paq Premium Internacional;S0411;1;África;S0411_África;1;Senegal;SN;1
+187;S0411_SC;Paq Premium Internacional;S0411;1;África;S0411_África;1;Seychelles;SC;1
+188;S0411_SL;Paq Premium Internacional;S0411;1;África;S0411_África;1;Sierra Leona;SL;1
+189;S0411_SO;Paq Premium Internacional;S0411;1;África;S0411_África;1;Somalia;SO;1
+190;S0411_ZA;Paq Premium Internacional;S0411;1;África;S0411_África;1;Sudáfrica;ZA;1
+191;S0411_SD;Paq Premium Internacional;S0411;1;África;S0411_África;1;Sudán;SD;1
+192;S0411_SS;Paq Premium Internacional;S0411;1;África;S0411_África;1;Sudán Del Sur;SS;1
+193;S0411_SZ;Paq Premium Internacional;S0411;1;África;S0411_África;1;Swazilandia;SZ;1
+194;S0411_TZ;Paq Premium Internacional;S0411;1;África;S0411_África;1;Tanzania;TZ;1
+195;S0411_TG;Paq Premium Internacional;S0411;1;África;S0411_África;1;Togo;TG;1
+196;S0411_UG;Paq Premium Internacional;S0411;1;África;S0411_África;1;Uganda;UG;1
+197;S0411_ZM;Paq Premium Internacional;S0411;1;África;S0411_África;1;Zambia;ZM;1
+198;S0411_ZW;Paq Premium Internacional;S0411;1;África;S0411_África;1;Zimbabwe;ZW;1
+199;S0410_DE;Paq Standard Internacional;S0410;1;Europa 1;S0410_Europa 1;1;Alemania;DE;1
+200;S0410_AT;Paq Standard Internacional;S0410;1;Europa 1;S0410_Europa 1;1;Austria;AT;1
+201;S0410_GG;Paq Standard Internacional;S0410;1;Europa 1;S0410_Europa 1;1;Bahía De Guernsey;GG;1
+202;S0410_BE;Paq Standard Internacional;S0410;1;Europa 1;S0410_Europa 1;1;Bélgica;BE;1
+203;S0410_DK;Paq Standard Internacional;S0410;1;Europa 1;S0410_Europa 1;1;Dinamarca;DK;1
+204;S0410_FR;Paq Standard Internacional;S0410;1;Europa 1;S0410_Europa 1;1;Francia;FR;1
+205;S0410_GI;Paq Standard Internacional;S0410;1;Europa 1;S0410_Europa 1;1;Gibraltar;GI;1
+206;S0410_GR;Paq Standard Internacional;S0410;1;Europa 1;S0410_Europa 1;1;Grecia;GR;1
+207;S0410_IE;Paq Standard Internacional;S0410;1;Europa 1;S0410_Europa 1;1;Irlanda;IE;1
+208;S0410_IT;Paq Standard Internacional;S0410;1;Europa 1;S0410_Europa 1;1;Italia;IT;1
+209;S0410_JE;Paq Standard Internacional;S0410;1;Europa 1;S0410_Europa 1;1;Jersey;JE;1
+210;S0410_LU;Paq Standard Internacional;S0410;1;Europa 1;S0410_Europa 1;1;Luxemburgo;LU;1
+211;S0410_MC;Paq Standard Internacional;S0410;1;Europa 1;S0410_Europa 1;1;Mónaco;MC;1
+212;S0410_NO;Paq Standard Internacional;S0410;1;Europa 1;S0410_Europa 1;1;Noruega;NO;1
+213;S0410_NL;Paq Standard Internacional;S0410;1;Europa 1;S0410_Europa 1;1;Países Bajos;NL;1
+214;S0410_PT;Paq Standard Internacional;S0410;1;Europa 1;S0410_Europa 1;1;Portugal;PT;1
+215;S0410_GB;Paq Standard Internacional;S0410;1;Europa 1;S0410_Europa 1;1;Reino Unido;GB;1
+216;S0410_SM;Paq Standard Internacional;S0410;1;Europa 1;S0410_Europa 1;1;San Marino;SM;1
+217;S0410_SE;Paq Standard Internacional;S0410;1;Europa 1;S0410_Europa 1;1;Suecia;SE;1
+218;S0410_VA;Paq Standard Internacional;S0410;1;Europa 1;S0410_Europa 1;1;Vaticano;VA;1
+219;S0410_CH;Paq Standard Internacional;S0410;1;Europa 1;S0410_Europa 1;1;Suiza;CH;1
+220;S0410_DZ;Paq Standard Internacional;S0410;1;Europa 2;S0410_Europa 2;1;Argelia;DZ;1
+221;S0410_BG;Paq Standard Internacional;S0410;1;Europa 2;S0410_Europa 2;1;Bulgaria;BG;1
+222;S0410_CY;Paq Standard Internacional;S0410;1;Europa 2;S0410_Europa 2;1;Chipre;CY;1
+223;S0410_HR;Paq Standard Internacional;S0410;1;Europa 2;S0410_Europa 2;1;Croacia;HR;1
+224;S0410_SK;Paq Standard Internacional;S0410;1;Europa 2;S0410_Europa 2;1;Eslovaquia;SK;1
+225;S0410_SI;Paq Standard Internacional;S0410;1;Europa 2;S0410_Europa 2;1;Eslovenia;SI;1
+226;S0410_EE;Paq Standard Internacional;S0410;1;Europa 2;S0410_Europa 2;1;Estonia;EE;1
+227;S0410_FI;Paq Standard Internacional;S0410;1;Europa 2;S0410_Europa 2;1;Finlandia;FI;1
+228;S0410_GL;Paq Standard Internacional;S0410;1;Europa 2;S0410_Europa 2;1;Groenlandia;GL;1
+229;S0410_HU;Paq Standard Internacional;S0410;1;Europa 2;S0410_Europa 2;1;Hungría;HU;1
+230;S0410_IS;Paq Standard Internacional;S0410;1;Europa 2;S0410_Europa 2;1;Islandia;IS;1
+231;S0410_FO;Paq Standard Internacional;S0410;1;Europa 2;S0410_Europa 2;1;Islas Feroe;FO;1
+232;S0410_XK;Paq Standard Internacional;S0410;1;Europa 2;S0410_Europa 2;1;Kosovo;XK;1
+233;S0410_LV;Paq Standard Internacional;S0410;1;Europa 2;S0410_Europa 2;1;Letonia;LV;1
+234;S0410_LI;Paq Standard Internacional;S0410;1;Europa 2;S0410_Europa 2;1;Liechtenstein;LI;1
+235;S0410_LT;Paq Standard Internacional;S0410;1;Europa 2;S0410_Europa 2;1;Lituania;LT;1
+236;S0410_MA;Paq Standard Internacional;S0410;1;Europa 2;S0410_Europa 2;1;Marruecos;MA;1
+237;S0410_ME;Paq Standard Internacional;S0410;1;Europa 2;S0410_Europa 2;1;Montenegro;ME;1
+238;S0410_PL;Paq Standard Internacional;S0410;1;Europa 2;S0410_Europa 2;1;Polonia;PL;1
+239;S0410_CZ;Paq Standard Internacional;S0410;1;Europa 2;S0410_Europa 2;1;República Checa;CZ;1
+240;S0410_RO;Paq Standard Internacional;S0410;1;Europa 2;S0410_Europa 2;1;Rumanía;RO;1
+241;S0410_TN;Paq Standard Internacional;S0410;1;Europa 2;S0410_Europa 2;1;Túnez;TN;1
+242;S0410_AL;Paq Standard Internacional;S0410;1;Europa 3;S0410_Europa 3;1;Albania;AL;1
+243;S0410_BY;Paq Standard Internacional;S0410;1;Europa 3;S0410_Europa 3;1;Bielorrusia;BY;1
+244;S0410_BA;Paq Standard Internacional;S0410;1;Europa 3;S0410_Europa 3;1;Bosnia Herzegovina;BA;1
+245;S0410_MK;Paq Standard Internacional;S0410;1;Europa 3;S0410_Europa 3;1;Macedonia;MK;1
+246;S0410_MT;Paq Standard Internacional;S0410;1;Europa 3;S0410_Europa 3;1;Malta;MT;1
+247;S0410_MD;Paq Standard Internacional;S0410;1;Europa 3;S0410_Europa 3;1;Moldavia;MD;1
+248;S0410_RU;Paq Standard Internacional;S0410;1;Europa 3;S0410_Europa 3;1;Rusia;RU;1
+249;S0410_RS;Paq Standard Internacional;S0410;1;Europa 3;S0410_Europa 3;1;Serbia;RS;1
+250;S0410_UA;Paq Standard Internacional;S0410;1;Europa 3;S0410_Europa 3;1;Ucrania;UA;1
+251;S0410_TR;Paq Standard Internacional;S0410;1;Europa 3;S0410_Europa 3;1;Turquía;TR;1
+252;S0410_AG;Paq Standard Internacional;S0410;1;América;S0410_América;1;Antigua Y Barbuda;AG;1
+253;S0410_AR;Paq Standard Internacional;S0410;1;América;S0410_América;1;Argentina;AR;1
+254;S0410_AW;Paq Standard Internacional;S0410;1;América;S0410_América;1;Aruba;AW;1
+255;S0410_BS;Paq Standard Internacional;S0410;1;América;S0410_América;1;Bahamas;BS;1
+256;S0410_BB;Paq Standard Internacional;S0410;1;América;S0410_América;1;Barbados;BB;1
+257;S0410_BZ;Paq Standard Internacional;S0410;1;América;S0410_América;1;Belice;BZ;1
+258;S0410_BM;Paq Standard Internacional;S0410;1;América;S0410_América;1;Bermudas;BM;1
+259;S0410_BO;Paq Standard Internacional;S0410;1;América;S0410_América;1;Bolivia;BO;1
+260;S0410_BR;Paq Standard Internacional;S0410;1;América;S0410_América;1;Brasil;BR;1
+261;S0410_CA;Paq Standard Internacional;S0410;1;América;S0410_América;1;Canadá;CA;1
+262;S0410_CL;Paq Standard Internacional;S0410;1;América;S0410_América;1;Chile;CL;1
+263;S0410_CO;Paq Standard Internacional;S0410;1;América;S0410_América;1;Colombia;CO;1
+264;S0410_CR;Paq Standard Internacional;S0410;1;América;S0410_América;1;Costa Rica;CR;1
+265;S0410_CU;Paq Standard Internacional;S0410;1;América;S0410_América;1;Cuba;CU;1
+266;S0410_CW;Paq Standard Internacional;S0410;1;América;S0410_América;1;Curaçao;CW;1
+267;S0410_DM;Paq Standard Internacional;S0410;1;América;S0410_América;1;Dominica;DM;1
+268;S0410_EC;Paq Standard Internacional;S0410;1;América;S0410_América;1;Ecuador;EC;1
+269;S0410_SV;Paq Standard Internacional;S0410;1;América;S0410_América;1;El Salvador;SV;1
+270;S0410_US;Paq Standard Internacional;S0410;1;América;S0410_América;1;Estados Unidos;US;1
+271;S0410_GD;Paq Standard Internacional;S0410;1;América;S0410_América;1;Granada;GD;1
+272;S0410_GT;Paq Standard Internacional;S0410;1;América;S0410_América;1;Guatemala;GT;1
+273;S0410_GY;Paq Standard Internacional;S0410;1;América;S0410_América;1;Guyana;GY;1
+274;S0410_HT;Paq Standard Internacional;S0410;1;América;S0410_América;1;Haití;HT;1
+275;S0410_HN;Paq Standard Internacional;S0410;1;América;S0410_América;1;Honduras;HN;1
+276;S0410_KY;Paq Standard Internacional;S0410;1;América;S0410_América;1;Islas Caimán;KY;1
+277;S0410_JM;Paq Standard Internacional;S0410;1;América;S0410_América;1;Jamaica;JM;1
+278;S0410_MX;Paq Standard Internacional;S0410;1;América;S0410_América;1;México;MX;1
+279;S0410_NI;Paq Standard Internacional;S0410;1;América;S0410_América;1;Nicaragua;NI;1
+280;S0410_PA;Paq Standard Internacional;S0410;1;América;S0410_América;1;Panamá;PA;1
+281;S0410_PY;Paq Standard Internacional;S0410;1;América;S0410_América;1;Paraguay;PY;1
+282;S0410_PE;Paq Standard Internacional;S0410;1;América;S0410_América;1;Perú;PE;1
+283;S0410_DO;Paq Standard Internacional;S0410;1;América;S0410_América;1;Rep. Dominicana;DO;1
+284;S0410_KN;Paq Standard Internacional;S0410;1;América;S0410_América;1;San Kitts Y Nevis;KN;1
+285;S0410_VC;Paq Standard Internacional;S0410;1;América;S0410_América;1;San Vicente Y Granadinas;VC;1
+286;S0410_LC;Paq Standard Internacional;S0410;1;América;S0410_América;1;Santa Lucía;LC;1
+287;S0410_SR;Paq Standard Internacional;S0410;1;América;S0410_América;1;Surinam;SR;1
+288;S0410_TT;Paq Standard Internacional;S0410;1;América;S0410_América;1;Trinidad Y Tobago;TT;1
+289;S0410_VE;Paq Standard Internacional;S0410;1;América;S0410_América;1;Venezuela;VE;1
+290;S0410_UY;Paq Standard Internacional;S0410;1;América;S0410_América;1;Uruguay;UY;1
+291;S0410_AF;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Afganistán;AF;1
+292;S0410_SA;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Arabia Saudí;SA;1
+293;S0410_AM;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Armenia;AM;1
+294;S0410_AZ;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Azerbaiyán;AZ;1
+295;S0410_BH;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Bahréin;BH;1
+296;S0410_BD;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Bangladesh;BD;1
+297;S0410_BN;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Brunéi;BN;1
+298;S0410_BT;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Bután;BT;1
+299;S0410_KH;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Camboya;KH;1
+300;S0410_CN;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;China;CN;1
+301;S0410_KP;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Corea Del Norte;KP;1
+302;S0410_KR;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Corea Del Sur;KR;1
+303;S0410_AE;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Emiratos Árabes;AE;1
+304;S0410_PH;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Filipinas;PH;1
+305;S0410_GE;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Georgia;GE;1
+306;S0410_HK;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Hong Kong;HK;1
+307;S0410_IN;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;India;IN;1
+308;S0410_ID;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Indonesia;ID;1
+309;S0410_IR;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Irán;IR;1
+310;S0410_IQ;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Iraq;IQ;1
+311;S0410_FJ;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Islas Fidji;FJ;1
+312;S0410_MH;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Islas Marshall;MH;1
+313;S0410_SB;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Islas Salomón;SB;1
+314;S0410_IL;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Israel;IL;1
+315;S0410_JP;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Japón;JP;1
+316;S0410_JO;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Jordania;JO;1
+317;S0410_KZ;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Kazajstán;KZ;1
+318;S0410_KG;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Kirguistán;KG;1
+319;S0410_KI;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Kiribati;KI;1
+320;S0410_KW;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Kuwait;KW;1
+321;S0410_LA;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Laos;LA;1
+322;S0410_LB;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Líbano;LB;1
+323;S0410_MO;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Macao;MO;1
+324;S0410_MY;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Malasia;MY;1
+325;S0410_MV;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Maldivas;MV;1
+326;S0410_MN;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Mongolia;MN;1
+327;S0410_MM;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Myanmar;MM;1
+328;S0410_NR;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Nauru;NR;1
+329;S0410_NP;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Nepal;NP;1
+330;S0410_NC;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Nueva Caledonia;NC;1
+331;S0410_OM;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Omán;OM;1
+332;S0410_PK;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Pakistán;PK;1
+333;S0410_PW;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Palaos;PW;1
+334;S0410_PG;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Papúa Nueva Guinea;PG;1
+335;S0410_QA;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Qatar;QA;1
+336;S0410_WS;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Samoa;WS;1
+337;S0410_SG;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Singapur;SG;1
+338;S0410_SY;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Siria;SY;1
+339;S0410_LK;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Sri Lanka;LK;1
+340;S0410_TH;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Tailandia;TH;1
+341;S0410_TW;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Taiwán;TW;1
+342;S0410_TJ;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Tayikistán;TJ;1
+343;S0410_PS;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Territorios Palestinos;PS;1
+344;S0410_TL;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Timor Oriental;TL;1
+345;S0410_TO;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Tonga;TO;1
+346;S0410_TM;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Turkmenistán;TM;1
+347;S0410_TV;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Tuvalu;TV;1
+348;S0410_VU;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Vanuatu;VU;1
+349;S0410_VN;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Vietnam;VN;1
+350;S0410_YE;Paq Standard Internacional;S0410;1;Asia Oceanía;S0410_Asia Oceanía;1;Yemen;YE;1
+351;S0410_AU;Paq Standard Internacional;S0410;1;Asia Oceanía 2;S0410_Asia Oceanía 2;1;Australia;AU;1
+352;S0410_NZ;Paq Standard Internacional;S0410;1;Asia Oceanía 2;S0410_Asia Oceanía 2;1;Nueva Zelanda;NZ;1
+353;S0410_UZ;Paq Standard Internacional;S0410;1;Asia Oceanía 2;S0410_Asia Oceanía 2;1;Uzbekistán;UZ;1
+354;S0410_AO;Paq Standard Internacional;S0410;1;África;S0410_África;1;Angola;AO;1
+355;S0410_BJ;Paq Standard Internacional;S0410;1;África;S0410_África;1;Benin;BJ;1
+356;S0410_BW;Paq Standard Internacional;S0410;1;África;S0410_África;1;Botswana;BW;1
+357;S0410_BF;Paq Standard Internacional;S0410;1;África;S0410_África;1;Burkina Faso;BF;1
+358;S0410_BI;Paq Standard Internacional;S0410;1;África;S0410_África;1;Burundi;BI;1
+359;S0410_CV;Paq Standard Internacional;S0410;1;África;S0410_África;1;Cabo Verde;CV;1
+360;S0410_CM;Paq Standard Internacional;S0410;1;África;S0410_África;1;Camerún;CM;1
+361;S0410_TD;Paq Standard Internacional;S0410;1;África;S0410_África;1;Chad;TD;1
+362;S0410_KM;Paq Standard Internacional;S0410;1;África;S0410_África;1;Comores;KM;1
+363;S0410_CI;Paq Standard Internacional;S0410;1;África;S0410_África;1;Costa De Marfil;CI;1
+364;S0410_DJ;Paq Standard Internacional;S0410;1;África;S0410_África;1;Djibuti;DJ;1
+365;S0410_EG;Paq Standard Internacional;S0410;1;África;S0410_África;1;Egipto;EG;1
+366;S0410_ER;Paq Standard Internacional;S0410;1;África;S0410_África;1;Eritrea;ER;1
+367;S0410_ET;Paq Standard Internacional;S0410;1;África;S0410_África;1;Etiopía;ET;1
+368;S0410_GA;Paq Standard Internacional;S0410;1;África;S0410_África;1;Gabón;GA;1
+369;S0410_GM;Paq Standard Internacional;S0410;1;África;S0410_África;1;Gambia;GM;1
+370;S0410_GH;Paq Standard Internacional;S0410;1;África;S0410_África;1;Ghana;GH;1
+371;S0410_GN;Paq Standard Internacional;S0410;1;África;S0410_África;1;Guinea;GN;1
+372;S0410_GW;Paq Standard Internacional;S0410;1;África;S0410_África;1;Guinea Bissau;GW;1
+373;S0410_GQ;Paq Standard Internacional;S0410;1;África;S0410_África;1;Guinea Ecuatorial;GQ;1
+374;S0410_KE;Paq Standard Internacional;S0410;1;África;S0410_África;1;Kenia;KE;1
+375;S0410_LS;Paq Standard Internacional;S0410;1;África;S0410_África;1;Lesoto;LS;1
+376;S0410_LR;Paq Standard Internacional;S0410;1;África;S0410_África;1;Liberia;LR;1
+377;S0410_LY;Paq Standard Internacional;S0410;1;África;S0410_África;1;Libia;LY;1
+378;S0410_MG;Paq Standard Internacional;S0410;1;África;S0410_África;1;Madagascar;MG;1
+379;S0410_MW;Paq Standard Internacional;S0410;1;África;S0410_África;1;Malawi;MW;1
+380;S0410_ML;Paq Standard Internacional;S0410;1;África;S0410_África;1;Mali;ML;1
+381;S0410_MR;Paq Standard Internacional;S0410;1;África;S0410_África;1;Mauritania;MR;1
+382;S0410_MZ;Paq Standard Internacional;S0410;1;África;S0410_África;1;Mozambique;MZ;1
+383;S0410_NA;Paq Standard Internacional;S0410;1;África;S0410_África;1;Naminia;NA;1
+384;S0410_NE;Paq Standard Internacional;S0410;1;África;S0410_África;1;Níger;NE;1
+385;S0410_NG;Paq Standard Internacional;S0410;1;África;S0410_África;1;Nigeria;NG;1
+386;S0410_CF;Paq Standard Internacional;S0410;1;África;S0410_África;1;Rep. Centroafricana;CF;1
+387;S0410_CG;Paq Standard Internacional;S0410;1;África;S0410_África;1;Rep. Congo;CG;1
+388;S0410_CD;Paq Standard Internacional;S0410;1;África;S0410_África;1;Rep. Dem. Congo;CD;1
+389;S0410_RW;Paq Standard Internacional;S0410;1;África;S0410_África;1;Ruanda;RW;1
+390;S0410_SN;Paq Standard Internacional;S0410;1;África;S0410_África;1;Senegal;SN;1
+391;S0410_SC;Paq Standard Internacional;S0410;1;África;S0410_África;1;Seychelles;SC;1
+392;S0410_SL;Paq Standard Internacional;S0410;1;África;S0410_África;1;Sierra Leona;SL;1
+393;S0410_SO;Paq Standard Internacional;S0410;1;África;S0410_África;1;Somalia;SO;1
+394;S0410_ZA;Paq Standard Internacional;S0410;1;África;S0410_África;1;Sudáfrica;ZA;1
+395;S0410_SD;Paq Standard Internacional;S0410;1;África;S0410_África;1;Sudán;SD;1
+396;S0410_SS;Paq Standard Internacional;S0410;1;África;S0410_África;1;Sudán Del Sur;SS;1
+397;S0410_SZ;Paq Standard Internacional;S0410;1;África;S0410_África;1;Swazilandia;SZ;1
+398;S0410_TZ;Paq Standard Internacional;S0410;1;África;S0410_África;1;Tanzania;TZ;1
+399;S0410_TG;Paq Standard Internacional;S0410;1;África;S0410_África;1;Togo;TG;1
+400;S0410_UG;Paq Standard Internacional;S0410;1;África;S0410_África;1;Uganda;UG;1
+401;S0410_ZM;Paq Standard Internacional;S0410;1;África;S0410_África;1;Zambia;ZM;1
+402;S0410_ZW;Paq Standard Internacional;S0410;1;África;S0410_África;1;Zimbabwe;ZW;1
+403;S0360_DE;Paq Light Internacional;S0360;1;Europa 1;S0360_Europa 1;1;Alemania;DE;1
+404;S0360_AT;Paq Light Internacional;S0360;1;Europa 1;S0360_Europa 1;1;Austria;AT;1
+405;S0360_BE;Paq Light Internacional;S0360;1;Europa 1;S0360_Europa 1;1;Bélgica;BE;1
+406;S0360_DK;Paq Light Internacional;S0360;1;Europa 1;S0360_Europa 1;1;Dinamarca;DK;1
+407;S0360_FR;Paq Light Internacional;S0360;1;Europa 1;S0360_Europa 1;1;Francia;FR;1
+408;S0360_GI;Paq Light Internacional;S0360;1;Europa 1;S0360_Europa 1;1;Gibraltar;GI;1
+409;S0360_GR;Paq Light Internacional;S0360;1;Europa 1;S0360_Europa 1;1;Grecia;GR;1
+410;S0360_IE;Paq Light Internacional;S0360;1;Europa 1;S0360_Europa 1;1;Irlanda;IE;1
+411;S0360_IT;Paq Light Internacional;S0360;1;Europa 1;S0360_Europa 1;1;Italia;IT;1
+412;S0360_JE;Paq Light Internacional;S0360;1;Europa 1;S0360_Europa 1;1;Jersey;JE;1
+413;S0360_LU;Paq Light Internacional;S0360;1;Europa 1;S0360_Europa 1;1;Luxemburgo;LU;1
+414;S0360_NO;Paq Light Internacional;S0360;1;Europa 1;S0360_Europa 1;1;Noruega;NO;1
+415;S0360_NL;Paq Light Internacional;S0360;1;Europa 1;S0360_Europa 1;1;Países Bajos;NL;1
+416;S0360_PT;Paq Light Internacional;S0360;1;Europa 1;S0360_Europa 1;1;Portugal;PT;1
+417;S0360_GB;Paq Light Internacional;S0360;1;Europa 1;S0360_Europa 1;1;Reino Unido;GB;1
+418;S0360_CH;Paq Light Internacional;S0360;1;Europa 1;S0360_Europa 1;1;Suiza;CH;1
+419;S0360_SE;Paq Light Internacional;S0360;1;Europa 1;S0360_Europa 1;1;Suecia;SE;1
+420;S0360_CY;Paq Light Internacional;S0360;1;Europa 2;S0360_Europa 2;1;Chipre;CY;1
+421;S0360_HR;Paq Light Internacional;S0360;1;Europa 2;S0360_Europa 2;1;Croacia;HR;1
+422;S0360_SK;Paq Light Internacional;S0360;1;Europa 2;S0360_Europa 2;1;Eslovaquia;SK;1
+423;S0360_SI;Paq Light Internacional;S0360;1;Europa 2;S0360_Europa 2;1;Eslovenia;SI;1
+424;S0360_EE;Paq Light Internacional;S0360;1;Europa 2;S0360_Europa 2;1;Estonia;EE;1
+425;S0360_FI;Paq Light Internacional;S0360;1;Europa 2;S0360_Europa 2;1;Finlandia;FI;1
+426;S0360_HU;Paq Light Internacional;S0360;1;Europa 2;S0360_Europa 2;1;Hungría;HU;1
+427;S0360_IS;Paq Light Internacional;S0360;1;Europa 2;S0360_Europa 2;1;Islandia;IS;1
+428;S0360_LV;Paq Light Internacional;S0360;1;Europa 2;S0360_Europa 2;1;Letonia;LV;1
+429;S0360_LT;Paq Light Internacional;S0360;1;Europa 2;S0360_Europa 2;1;Lituania;LT;1
+430;S0360_MT;Paq Light Internacional;S0360;1;Europa 2;S0360_Europa 2;1;Malta;MT;1
+431;S0360_PL;Paq Light Internacional;S0360;1;Europa 2;S0360_Europa 2;1;Polonia;PL;1
+432;S0360_CZ;Paq Light Internacional;S0360;1;Europa 2;S0360_Europa 2;1;República Checa;CZ;1
+433;S0360_RO;Paq Light Internacional;S0360;1;Europa 2;S0360_Europa 2;1;Rumanía;RO;1
+434;S0360_RU;Paq Light Internacional;S0360;1;Europa 2;S0360_Europa 2;1;Rusia;RU;1
+435;S0360_RS;Paq Light Internacional;S0360;1;Europa 2;S0360_Europa 2;1;Serbia;RS;1
+436;S0360_TR;Paq Light Internacional;S0360;1;Europa 2;S0360_Europa 2;1;Turquía;TR;1
+437;S0360_AW;Paq Light Internacional;S0360;1;América;S0360_América;1;Aruba;AW;1
+438;S0360_BB;Paq Light Internacional;S0360;1;América;S0360_América;1;Barbados;BB;1
+439;S0360_BR;Paq Light Internacional;S0360;1;América;S0360_América;1;Brasil;BR;1
+440;S0360_CA;Paq Light Internacional;S0360;1;América;S0360_América;1;Canadá;CA;1
+441;S0360_MX;Paq Light Internacional;S0360;1;América;S0360_América;1;México;MX;1
+442;S0360_DO;Paq Light Internacional;S0360;1;América;S0360_América;1;Rep. Dominicana;DO;1
+443;S0360_SA;Paq Light Internacional;S0360;1;Asia Oceanía;S0360_Asia Oceanía;1;Arabia Saudí;SA;1
+444;S0360_AU;Paq Light Internacional;S0360;1;Asia Oceanía;S0360_Asia Oceanía;1;Australia;AU;1
+445;S0360_KR;Paq Light Internacional;S0360;1;Asia Oceanía;S0360_Asia Oceanía;1;Corea Del Sur;KR;1
+446;S0360_AE;Paq Light Internacional;S0360;1;Asia Oceanía;S0360_Asia Oceanía;1;Emiratos Árabes;AE;1
+447;S0360_GE;Paq Light Internacional;S0360;1;Asia Oceanía;S0360_Asia Oceanía;1;Georgia;GE;1
+448;S0360_HK;Paq Light Internacional;S0360;1;Asia Oceanía;S0360_Asia Oceanía;1;Hong Kong;HK;1
+449;S0360_ID;Paq Light Internacional;S0360;1;Asia Oceanía;S0360_Asia Oceanía;1;Indonesia;ID;1
+450;S0360_IL;Paq Light Internacional;S0360;1;Asia Oceanía;S0360_Asia Oceanía;1;Israel;IL;1
+451;S0360_JP;Paq Light Internacional;S0360;1;Asia Oceanía;S0360_Asia Oceanía;1;Japón;JP;1
+452;S0360_LB;Paq Light Internacional;S0360;1;Asia Oceanía;S0360_Asia Oceanía;1;Líbano;LB;1
+453;S0360_MY;Paq Light Internacional;S0360;1;Asia Oceanía;S0360_Asia Oceanía;1;Malasia;MY;1
+454;S0360_NZ;Paq Light Internacional;S0360;1;Asia Oceanía;S0360_Asia Oceanía;1;Nueva Zelanda;NZ;1
+455;S0360_TH;Paq Light Internacional;S0360;1;Asia Oceanía;S0360_Asia Oceanía;1;Tailandia;TH;1
+456;S0360_SG;Paq Light Internacional;S0360;1;Asia Oceanía;S0360_Asia Oceanía;1;Singapur;SG;1
+457;S0360_EG;Paq Light Internacional;S0360;1;África;S0360_África;1;Egipto;EG;1
+458;S0360_SZ;Paq Light Internacional;S0360;1;África;S0360_África;1;Swazilandia;SZ;1
+459;S0360_ZA;Paq Light Internacional;S0360;1;África;S0360_África;1;Sudáfrica;ZA;1
+460;S0031_DE;Paquete Internacional económico;S0031;1;Europa 1;S0031_Europa 1;1;Alemania;DE;1
+461;S0031_AT;Paquete Internacional económico;S0031;1;Europa 1;S0031_Europa 1;1;Austria;AT;1
+462;S0031_GG;Paquete Internacional económico;S0031;1;Europa 1;S0031_Europa 1;1;Bahía De Guernsey;GG;1
+463;S0031_BE;Paquete Internacional económico;S0031;1;Europa 1;S0031_Europa 1;1;Bélgica;BE;1
+464;S0031_DK;Paquete Internacional económico;S0031;1;Europa 1;S0031_Europa 1;1;Dinamarca;DK;1
+465;S0031_FR;Paquete Internacional económico;S0031;1;Europa 1;S0031_Europa 1;1;Francia;FR;1
+466;S0031_GI;Paquete Internacional económico;S0031;1;Europa 1;S0031_Europa 1;1;Gibraltar;GI;1
+467;S0031_GR;Paquete Internacional económico;S0031;1;Europa 1;S0031_Europa 1;1;Grecia;GR;1
+468;S0031_IE;Paquete Internacional económico;S0031;1;Europa 1;S0031_Europa 1;1;Irlanda;IE;1
+469;S0031_IT;Paquete Internacional económico;S0031;1;Europa 1;S0031_Europa 1;1;Italia;IT;1
+470;S0031_JE;Paquete Internacional económico;S0031;1;Europa 1;S0031_Europa 1;1;Jersey;JE;1
+471;S0031_LU;Paquete Internacional económico;S0031;1;Europa 1;S0031_Europa 1;1;Luxemburgo;LU;1
+472;S0031_MC;Paquete Internacional económico;S0031;1;Europa 1;S0031_Europa 1;1;Mónaco;MC;1
+473;S0031_NO;Paquete Internacional económico;S0031;1;Europa 1;S0031_Europa 1;1;Noruega;NO;1
+474;S0031_NL;Paquete Internacional económico;S0031;1;Europa 1;S0031_Europa 1;1;Países Bajos;NL;1
+475;S0031_PT;Paquete Internacional económico;S0031;1;Europa 1;S0031_Europa 1;1;Portugal;PT;1
+476;S0031_GB;Paquete Internacional económico;S0031;1;Europa 1;S0031_Europa 1;1;Reino Unido;GB;1
+477;S0031_SM;Paquete Internacional económico;S0031;1;Europa 1;S0031_Europa 1;1;San Marino;SM;1
+478;S0031_SE;Paquete Internacional económico;S0031;1;Europa 1;S0031_Europa 1;1;Suecia;SE;1
+479;S0031_CH;Paquete Internacional económico;S0031;1;Europa 1;S0031_Europa 1;1;Suiza;CH;1
+480;S0031_VA;Paquete Internacional económico;S0031;1;Europa 1;S0031_Europa 1;1;Vaticano;VA;1
+481;S0031_DZ;Paquete Internacional económico;S0031;1;Europa 2;S0031_Europa 2;1;Argelia;DZ;1
+482;S0031_BG;Paquete Internacional económico;S0031;1;Europa 2;S0031_Europa 2;1;Bulgaria;BG;1
+483;S0031_CY;Paquete Internacional económico;S0031;1;Europa 2;S0031_Europa 2;1;Chipre;CY;1
+484;S0031_HR;Paquete Internacional económico;S0031;1;Europa 2;S0031_Europa 2;1;Croacia;HR;1
+485;S0031_SK;Paquete Internacional económico;S0031;1;Europa 2;S0031_Europa 2;1;Eslovaquia;SK;1
+486;S0031_SI;Paquete Internacional económico;S0031;1;Europa 2;S0031_Europa 2;1;Eslovenia;SI;1
+487;S0031_EE;Paquete Internacional económico;S0031;1;Europa 2;S0031_Europa 2;1;Estonia;EE;1
+488;S0031_FI;Paquete Internacional económico;S0031;1;Europa 2;S0031_Europa 2;1;Finlandia;FI;1
+489;S0031_GL;Paquete Internacional económico;S0031;1;Europa 2;S0031_Europa 2;1;Groenlandia;GL;1
+490;S0031_HU;Paquete Internacional económico;S0031;1;Europa 2;S0031_Europa 2;1;Hungría;HU;1
+491;S0031_IS;Paquete Internacional económico;S0031;1;Europa 2;S0031_Europa 2;1;Islandia;IS;1
+492;S0031_FO;Paquete Internacional económico;S0031;1;Europa 2;S0031_Europa 2;1;Islas Feroe;FO;1
+493;S0031_XK;Paquete Internacional económico;S0031;1;Europa 2;S0031_Europa 2;1;Kosovo;XK;1
+494;S0031_LV;Paquete Internacional económico;S0031;1;Europa 2;S0031_Europa 2;1;Letonia;LV;1
+495;S0031_LI;Paquete Internacional económico;S0031;1;Europa 2;S0031_Europa 2;1;Liechtenstein;LI;1
+496;S0031_LT;Paquete Internacional económico;S0031;1;Europa 2;S0031_Europa 2;1;Lituania;LT;1
+497;S0031_MA;Paquete Internacional económico;S0031;1;Europa 2;S0031_Europa 2;1;Marruecos;MA;1
+498;S0031_ME;Paquete Internacional económico;S0031;1;Europa 2;S0031_Europa 2;1;Montenegro;ME;1
+499;S0031_PL;Paquete Internacional económico;S0031;1;Europa 2;S0031_Europa 2;1;Polonia;PL;1
+500;S0031_CZ;Paquete Internacional económico;S0031;1;Europa 2;S0031_Europa 2;1;República Checa;CZ;1
+501;S0031_TN;Paquete Internacional económico;S0031;1;Europa 2;S0031_Europa 2;1;Túnez;TN;1
+502;S0031_RO;Paquete Internacional económico;S0031;1;Europa 2;S0031_Europa 2;1;Rumanía;RO;1
+503;S0031_AL;Paquete Internacional económico;S0031;1;Europa 3;S0031_Europa 3;1;Albania;AL;1
+504;S0031_BY;Paquete Internacional económico;S0031;1;Europa 3;S0031_Europa 3;1;Bielorrusia;BY;1
+505;S0031_BA;Paquete Internacional económico;S0031;1;Europa 3;S0031_Europa 3;1;Bosnia Herzegovina;BA;1
+506;S0031_MK;Paquete Internacional económico;S0031;1;Europa 3;S0031_Europa 3;1;Macedonia;MK;1
+507;S0031_MT;Paquete Internacional económico;S0031;1;Europa 3;S0031_Europa 3;1;Malta;MT;1
+508;S0031_MD;Paquete Internacional económico;S0031;1;Europa 3;S0031_Europa 3;1;Moldavia;MD;1
+509;S0031_RU;Paquete Internacional económico;S0031;1;Europa 3;S0031_Europa 3;1;Rusia;RU;1
+510;S0031_RS;Paquete Internacional económico;S0031;1;Europa 3;S0031_Europa 3;1;Serbia;RS;1
+511;S0031_UA;Paquete Internacional económico;S0031;1;Europa 3;S0031_Europa 3;1;Ucrania;UA;1
+512;S0031_TR;Paquete Internacional económico;S0031;1;Europa 3;S0031_Europa 3;1;Turquía;TR;1
+513;S0031_AG;Paquete Internacional económico;S0031;1;América;S0031_América;1;Antigua Y Barbuda;AG;1
+514;S0031_AW;Paquete Internacional económico;S0031;1;América;S0031_América;1;Aruba;AW;1
+515;S0031_BS;Paquete Internacional económico;S0031;1;América;S0031_América;1;Bahamas;BS;1
+516;S0031_BB;Paquete Internacional económico;S0031;1;América;S0031_América;1;Barbados;BB;1
+517;S0031_BZ;Paquete Internacional económico;S0031;1;América;S0031_América;1;Belice;BZ;1
+518;S0031_BM;Paquete Internacional económico;S0031;1;América;S0031_América;1;Bermudas;BM;1
+519;S0031_CW;Paquete Internacional económico;S0031;1;América;S0031_América;1;Curaçao;CW;1
+520;S0031_DM;Paquete Internacional económico;S0031;1;América;S0031_América;1;Dominica;DM;1
+521;S0031_SV;Paquete Internacional económico;S0031;1;América;S0031_América;1;El Salvador;SV;1
+522;S0031_GD;Paquete Internacional económico;S0031;1;América;S0031_América;1;Granada;GD;1
+523;S0031_GY;Paquete Internacional económico;S0031;1;América;S0031_América;1;Guyana;GY;1
+524;S0031_HT;Paquete Internacional económico;S0031;1;América;S0031_América;1;Haití;HT;1
+525;S0031_KY;Paquete Internacional económico;S0031;1;América;S0031_América;1;Islas Caimán;KY;1
+526;S0031_JM;Paquete Internacional económico;S0031;1;América;S0031_América;1;Jamaica;JM;1
+527;S0031_PA;Paquete Internacional económico;S0031;1;América;S0031_América;1;Panamá;PA;1
+528;S0031_PE;Paquete Internacional económico;S0031;1;América;S0031_América;1;Perú;PE;1
+529;S0031_DO;Paquete Internacional económico;S0031;1;América;S0031_América;1;Rep. Dominicana;DO;1
+530;S0031_KN;Paquete Internacional económico;S0031;1;América;S0031_América;1;San Kitts Y Nevis;KN;1
+531;S0031_VC;Paquete Internacional económico;S0031;1;América;S0031_América;1;San Vicente Y Granadinas;VC;1
+532;S0031_LC;Paquete Internacional económico;S0031;1;América;S0031_América;1;Santa Lucía;LC;1
+533;S0031_SR;Paquete Internacional económico;S0031;1;América;S0031_América;1;Surinam;SR;1
+534;S0031_TT;Paquete Internacional económico;S0031;1;América;S0031_América;1;Trinidad Y Tobago;TT;1
+535;S0031_AR;Paquete Internacional económico;S0031;1;América 2;S0031_América 2;1;Argentina;AR;1
+536;S0031_BO;Paquete Internacional económico;S0031;1;América 2;S0031_América 2;1;Bolivia;BO;1
+537;S0031_BR;Paquete Internacional económico;S0031;1;América 2;S0031_América 2;1;Brasil;BR;1
+538;S0031_CA;Paquete Internacional económico;S0031;1;América 2;S0031_América 2;1;Canadá;CA;1
+539;S0031_CL;Paquete Internacional económico;S0031;1;América 2;S0031_América 2;1;Chile;CL;1
+540;S0031_CO;Paquete Internacional económico;S0031;1;América 2;S0031_América 2;1;Colombia;CO;1
+541;S0031_CR;Paquete Internacional económico;S0031;1;América 2;S0031_América 2;1;Costa Rica;CR;1
+542;S0031_CU;Paquete Internacional económico;S0031;1;América 2;S0031_América 2;1;Cuba;CU;1
+543;S0031_EC;Paquete Internacional económico;S0031;1;América 2;S0031_América 2;1;Ecuador;EC;1
+544;S0031_US;Paquete Internacional económico;S0031;1;América 2;S0031_América 2;1;Estados Unidos;US;1
+545;S0031_GT;Paquete Internacional económico;S0031;1;América 2;S0031_América 2;1;Guatemala;GT;1
+546;S0031_HN;Paquete Internacional económico;S0031;1;América 2;S0031_América 2;1;Honduras;HN;1
+547;S0031_MX;Paquete Internacional económico;S0031;1;América 2;S0031_América 2;1;México;MX;1
+548;S0031_NI;Paquete Internacional económico;S0031;1;América 2;S0031_América 2;1;Nicaragua;NI;1
+549;S0031_PY;Paquete Internacional económico;S0031;1;América 2;S0031_América 2;1;Paraguay;PY;1
+550;S0031_VE;Paquete Internacional económico;S0031;1;América 2;S0031_América 2;1;Venezuela;VE;1
+551;S0031_UY;Paquete Internacional económico;S0031;1;América 2;S0031_América 2;1;Uruguay;UY;1
+552;S0031_AF;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Afganistán;AF;1
+553;S0031_SA;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Arabia Saudí;SA;1
+554;S0031_AM;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Armenia;AM;1
+555;S0031_AZ;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Azerbaiyán;AZ;1
+556;S0031_BH;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Bahréin;BH;1
+557;S0031_BD;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Bangladesh;BD;1
+558;S0031_BN;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Brunéi;BN;1
+559;S0031_BT;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Bután;BT;1
+560;S0031_KH;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Camboya;KH;1
+561;S0031_CN;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;China;CN;1
+562;S0031_KP;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Corea Del Norte;KP;1
+563;S0031_KR;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Corea Del Sur;KR;1
+564;S0031_AE;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Emiratos Árabes;AE;1
+565;S0031_PH;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Filipinas;PH;1
+566;S0031_GE;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Georgia;GE;1
+567;S0031_HK;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Hong Kong;HK;1
+568;S0031_IN;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;India;IN;1
+569;S0031_ID;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Indonesia;ID;1
+570;S0031_IR;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Irán;IR;1
+571;S0031_IQ;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Iraq;IQ;1
+572;S0031_FJ;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Islas Fidji;FJ;1
+573;S0031_MH;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Islas Marshall;MH;1
+574;S0031_SB;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Islas Salomón;SB;1
+575;S0031_IL;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Israel;IL;1
+576;S0031_JP;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Japón;JP;1
+577;S0031_JO;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Jordania;JO;1
+578;S0031_KZ;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Kazajstán;KZ;1
+579;S0031_KG;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Kirguistán;KG;1
+580;S0031_KI;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Kiribati;KI;1
+581;S0031_KW;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Kuwait;KW;1
+582;S0031_LA;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Laos;LA;1
+583;S0031_LB;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Líbano;LB;1
+584;S0031_MO;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Macao;MO;1
+585;S0031_MY;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Malasia;MY;1
+586;S0031_MV;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Maldivas;MV;1
+587;S0031_MN;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Mongolia;MN;1
+588;S0031_MM;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Myanmar;MM;1
+589;S0031_NR;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Nauru;NR;1
+590;S0031_NP;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Nepal;NP;1
+591;S0031_NC;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Nueva Caledonia;NC;1
+592;S0031_OM;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Omán;OM;1
+593;S0031_PK;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Pakistán;PK;1
+594;S0031_PW;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Palaos;PW;1
+595;S0031_PG;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Papúa Nueva Guinea;PG;1
+596;S0031_QA;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Qatar;QA;1
+597;S0031_WS;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Samoa;WS;1
+598;S0031_SG;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Singapur;SG;1
+599;S0031_SY;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Siria;SY;1
+600;S0031_LK;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Sri Lanka;LK;1
+601;S0031_TH;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Tailandia;TH;1
+602;S0031_TW;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Taiwán;TW;1
+603;S0031_TJ;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Tayikistán;TJ;1
+604;S0031_PS;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Territorios Palestinos;PS;1
+605;S0031_TL;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Timor Oriental;TL;1
+606;S0031_TO;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Tonga;TO;1
+607;S0031_TM;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Turkmenistán;TM;1
+608;S0031_TV;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Tuvalu;TV;1
+609;S0031_VU;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Vanuatu;VU;1
+610;S0031_VN;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Vietnam;VN;1
+611;S0031_YE;Paquete Internacional económico;S0031;1;Asia Oceanía;S0031_Asia Oceanía;1;Yemen;YE;1
+612;S0031_AU;Paquete Internacional económico;S0031;1;Asia Oceanía 2;S0031_Asia Oceanía 2;1;Australia;AU;1
+613;S0031_UZ;Paquete Internacional económico;S0031;1;Asia Oceanía 2;S0031_Asia Oceanía 2;1;Uzbekistán;UZ;1
+614;S0031_NZ;Paquete Internacional económico;S0031;1;Asia Oceanía 2;S0031_Asia Oceanía 2;1;Nueva Zelanda;NZ;1
+615;S0031_AO;Paquete Internacional económico;S0031;1;África;S0031_África;1;Angola;AO;1
+616;S0031_BJ;Paquete Internacional económico;S0031;1;África;S0031_África;1;Benin;BJ;1
+617;S0031_BW;Paquete Internacional económico;S0031;1;África;S0031_África;1;Botswana;BW;1
+618;S0031_BF;Paquete Internacional económico;S0031;1;África;S0031_África;1;Burkina Faso;BF;1
+619;S0031_BI;Paquete Internacional económico;S0031;1;África;S0031_África;1;Burundi;BI;1
+620;S0031_CV;Paquete Internacional económico;S0031;1;África;S0031_África;1;Cabo Verde;CV;1
+621;S0031_CM;Paquete Internacional económico;S0031;1;África;S0031_África;1;Camerún;CM;1
+622;S0031_TD;Paquete Internacional económico;S0031;1;África;S0031_África;1;Chad;TD;1
+623;S0031_KM;Paquete Internacional económico;S0031;1;África;S0031_África;1;Comores;KM;1
+624;S0031_CI;Paquete Internacional económico;S0031;1;África;S0031_África;1;Costa De Marfil;CI;1
+625;S0031_DJ;Paquete Internacional económico;S0031;1;África;S0031_África;1;Djibuti;DJ;1
+626;S0031_EG;Paquete Internacional económico;S0031;1;África;S0031_África;1;Egipto;EG;1
+627;S0031_ER;Paquete Internacional económico;S0031;1;África;S0031_África;1;Eritrea;ER;1
+628;S0031_ET;Paquete Internacional económico;S0031;1;África;S0031_África;1;Etiopía;ET;1
+629;S0031_GA;Paquete Internacional económico;S0031;1;África;S0031_África;1;Gabón;GA;1
+630;S0031_GM;Paquete Internacional económico;S0031;1;África;S0031_África;1;Gambia;GM;1
+631;S0031_GH;Paquete Internacional económico;S0031;1;África;S0031_África;1;Ghana;GH;1
+632;S0031_GN;Paquete Internacional económico;S0031;1;África;S0031_África;1;Guinea;GN;1
+633;S0031_GW;Paquete Internacional económico;S0031;1;África;S0031_África;1;Guinea Bissau;GW;1
+634;S0031_GQ;Paquete Internacional económico;S0031;1;África;S0031_África;1;Guinea Ecuatorial;GQ;1
+635;S0031_KE;Paquete Internacional económico;S0031;1;África;S0031_África;1;Kenia;KE;1
+636;S0031_LS;Paquete Internacional económico;S0031;1;África;S0031_África;1;Lesoto;LS;1
+637;S0031_LR;Paquete Internacional económico;S0031;1;África;S0031_África;1;Liberia;LR;1
+638;S0031_LY;Paquete Internacional económico;S0031;1;África;S0031_África;1;Libia;LY;1
+639;S0031_MG;Paquete Internacional económico;S0031;1;África;S0031_África;1;Madagascar;MG;1
+640;S0031_MW;Paquete Internacional económico;S0031;1;África;S0031_África;1;Malawi;MW;1
+641;S0031_ML;Paquete Internacional económico;S0031;1;África;S0031_África;1;Mali;ML;1
+642;S0031_MR;Paquete Internacional económico;S0031;1;África;S0031_África;1;Mauritania;MR;1
+643;S0031_MZ;Paquete Internacional económico;S0031;1;África;S0031_África;1;Mozambique;MZ;1
+644;S0031_NA;Paquete Internacional económico;S0031;1;África;S0031_África;1;Naminia;NA;1
+645;S0031_NE;Paquete Internacional económico;S0031;1;África;S0031_África;1;Níger;NE;1
+646;S0031_NG;Paquete Internacional económico;S0031;1;África;S0031_África;1;Nigeria;NG;1
+647;S0031_CF;Paquete Internacional económico;S0031;1;África;S0031_África;1;Rep. Centroafricana;CF;1
+648;S0031_CG;Paquete Internacional económico;S0031;1;África;S0031_África;1;Rep. Congo;CG;1
+649;S0031_CD;Paquete Internacional económico;S0031;1;África;S0031_África;1;Rep. Dem. Congo;CD;1
+650;S0031_RW;Paquete Internacional económico;S0031;1;África;S0031_África;1;Ruanda;RW;1
+651;S0031_SN;Paquete Internacional económico;S0031;1;África;S0031_África;1;Senegal;SN;1
+652;S0031_SC;Paquete Internacional económico;S0031;1;África;S0031_África;1;Seychelles;SC;1
+653;S0031_SL;Paquete Internacional económico;S0031;1;África;S0031_África;1;Sierra Leona;SL;1
+654;S0031_SO;Paquete Internacional económico;S0031;1;África;S0031_África;1;Somalia;SO;1
+655;S0031_ZA;Paquete Internacional económico;S0031;1;África;S0031_África;1;Sudáfrica;ZA;1
+656;S0031_SD;Paquete Internacional económico;S0031;1;África;S0031_África;1;Sudán;SD;1
+657;S0031_SS;Paquete Internacional económico;S0031;1;África;S0031_África;1;Sudán Del Sur;SS;1
+658;S0031_SZ;Paquete Internacional económico;S0031;1;África;S0031_África;1;Swazilandia;SZ;1
+659;S0031_TZ;Paquete Internacional económico;S0031;1;África;S0031_África;1;Tanzania;TZ;1
+660;S0031_TG;Paquete Internacional económico;S0031;1;África;S0031_África;1;Togo;TG;1
+661;S0031_UG;Paquete Internacional económico;S0031;1;África;S0031_África;1;Uganda;UG;1
+662;S0031_ZM;Paquete Internacional económico;S0031;1;África;S0031_África;1;Zambia;ZM;1
+663;S0031_ZW;Paquete Internacional económico;S0031;1;África;S0031_África;1;Zimbabwe;ZW;1
+664;91_AO;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Angola;AO;1
+665;91_DZ;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Argelia;DZ;1
+666;91_AM;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Armenia;AM;1
+667;91_AZ;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Azerbaiyán;AZ;1
+668;91_BJ;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Benin;BJ;1
+669;91_BW;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Botswana;BW;1
+670;91_BF;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Burkina Faso;BF;1
+671;91_BI;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Burundi;BI;1
+672;91_CV;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Cabo Verde;CV;1
+673;91_CM;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Camerún;CM;1
+674;91_TD;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Chad;TD;1
+675;91_CG;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Rep. Congo;CG;1
+676;91_CI;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Costa De Marfil;CI;1
+677;91_DJ;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Djibuti;DJ;1
+678;91_KZ;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Kazajstán;KZ;1
+679;91_KE;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Kenia;KE;1
+680;91_KG;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Kirguistán;KG;1
+681;91_LS;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Lesoto;LS;1
+682;91_LR;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Liberia;LR;1
+683;91_MG;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Madagascar;MG;1
+684;91_MW;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Malawi;MW;1
+685;91_ML;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Mali;ML;1
+686;91_MA;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Marruecos;MA;1
+687;91_MU;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Mauricio;MU;1
+688;91_MR;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Mauritania;MR;1
+689;91_FM;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Micronesia;FM;1
+690;91_MZ;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Mozambique;MZ;1
+691;91_NA;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Namibia;NA;1
+692;91_NE;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Niger;NE;1
+693;91_NG;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Nigeria;NG;1
+694;91_NC;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Nueva Caledonia;NC;1
+695;91_PW;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Palau;PW;1
+696;91_PG;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Papua Nueva Guinea;PG;1
+697;91_ER;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Eritrea;ER;1
+698;91_ET;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Etiopía;ET;1
+699;91_FJ;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Fidyi;FJ;1
+700;91_GA;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Gabón;GA;1
+701;91_GM;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Gambia;GM;1
+702;91_GE;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Georgia;GE;1
+703;91_GH;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Ghana;GH;1
+704;91_GU;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Guam;GU;1
+705;91_GN;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Guinea;GN;1
+706;91_GW;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Guinea Bissau;GW;1
+707;91_GQ;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Guinea Ecuatorial;GQ;1
+708;91_RE;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Isla Reunión;RE;1
+709;91_CK;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Islas Cook;CK;1
+710;91_MH;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Islas Marshall;MH;1
+711;91_PF;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Polinesia Francesa;PF;1
+712;91_CD;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Rep. Demc.Del Congo;CD;1
+713;91_RW;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Ruanda;RW;1
+714;91_MP;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Saipan, Islas Marianas;MP;1
+715;91_AS;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Samoa Americana;AS;1
+716;91_SN;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Senegal;SN;1
+717;91_SC;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Seychelles;SC;1
+718;91_SO;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Somalia;SO;1
+719;91_ZA;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Sudáfrica;ZA;1
+720;91_SZ;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Swazilandia;SZ;1
+721;91_TZ;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Tanzania;TZ;1
+722;91_TG;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Togo;TG;1
+723;91_TN;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Túnez;TN;1
+724;91_UG;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Uganda;UG;1
+725;91_UZ;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Uzbekistan;UZ;1
+726;91_VU;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Vanuatu;VU;1
+727;91_WF;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Wallis Y Futuna;WF;1
+728;91_ZM;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Zambia;ZM;1
+729;91_ZW;Internacional Express CEX;91;1;África Oceanía y otros;91_África Oceanía y otros;1;Zimbawe;ZW;1
+730;91_DE;Internacional Express CEX;91;1;Europa 1;91_Europa 1;1;Alemania;DE;1
+731;91_AT;Internacional Express CEX;91;1;Europa 1;91_Europa 1;1;Austria;AT;1
+732;91_BE;Internacional Express CEX;91;1;Europa 1;91_Europa 1;1;Bélgica;BE;1
+733;91_DK;Internacional Express CEX;91;1;Europa 1;91_Europa 1;1;Dinamarca;DK;1
+734;91_LU;Internacional Express CEX;91;1;Europa 1;91_Europa 1;1;Luxemburgo;LU;1
+735;91_MC;Internacional Express CEX;91;1;Europa 1;91_Europa 1;1;Mónaco;MC;1
+736;91_FI;Internacional Express CEX;91;1;Europa 1;91_Europa 1;1;Finlandia;FI;1
+737;91_FR;Internacional Express CEX;91;1;Europa 1;91_Europa 1;1;Francia;FR;1
+738;91_GR;Internacional Express CEX;91;1;Europa 1;91_Europa 1;1;Grecia;GR;1
+739;91_GL;Internacional Express CEX;91;1;Europa 1;91_Europa 1;1;Groenlandia;GL;1
+740;91_NL;Internacional Express CEX;91;1;Europa 1;91_Europa 1;1;Holanda;NL;1
+741;91_IE;Internacional Express CEX;91;1;Europa 1;91_Europa 1;1;Irlanda;IE;1
+742;91_IT;Internacional Express CEX;91;1;Europa 1;91_Europa 1;1;Italia;IT;1
+743;91_GB;Internacional Express CEX;91;1;Europa 1;91_Europa 1;1;Reino Unido;GB;1
+744;91_SE;Internacional Express CEX;91;1;Europa 1;91_Europa 1;1;Suecia;SE;1
+745;91_VA;Internacional Express CEX;91;1;Europa 1;91_Europa 1;1;Vaticano;VA;1
+746;91_AL;Internacional Express CEX;91;1;Europa 2;91_Europa 2;1;Albania;AL;1
+747;91_BY;Internacional Express CEX;91;1;Europa 2;91_Europa 2;1;Bielorrusia;BY;1
+748;91_BG;Internacional Express CEX;91;1;Europa 2;91_Europa 2;1;Bulgaria;BG;1
+749;91_HR;Internacional Express CEX;91;1;Europa 2;91_Europa 2;1;Croacia;HR;1
+750;91_LV;Internacional Express CEX;91;1;Europa 2;91_Europa 2;1;Letonia;LV;1
+751;91_LT;Internacional Express CEX;91;1;Europa 2;91_Europa 2;1;Lituania;LT;1
+752;91_MK;Internacional Express CEX;91;1;Europa 2;91_Europa 2;1;Macedonia;MK;1
+753;91_MD;Internacional Express CEX;91;1;Europa 2;91_Europa 2;1;Moldavia;MD;1
+754;91_ME;Internacional Express CEX;91;1;Europa 2;91_Europa 2;1;Montenegro;ME;1
+755;91_SK;Internacional Express CEX;91;1;Europa 2;91_Europa 2;1;Eslovaquia;SK;1
+756;91_SI;Internacional Express CEX;91;1;Europa 2;91_Europa 2;1;Eslovenia;SI;1
+757;91_EE;Internacional Express CEX;91;1;Europa 2;91_Europa 2;1;Estonia;EE;1
+758;91_HU;Internacional Express CEX;91;1;Europa 2;91_Europa 2;1;Hungría;HU;1
+759;91_PL;Internacional Express CEX;91;1;Europa 2;91_Europa 2;1;Polonia;PL;1
+760;91_CZ;Internacional Express CEX;91;1;Europa 2;91_Europa 2;1;República Checa;CZ;1
+761;91_RO;Internacional Express CEX;91;1;Europa 2;91_Europa 2;1;Rumanía;RO;1
+762;91_RU;Internacional Express CEX;91;1;Europa 2;91_Europa 2;1;Rusia;RU;1
+763;91_RS;Internacional Express CEX;91;1;Europa 2;91_Europa 2;1;Serbia;RS;1
+764;91_UA;Internacional Express CEX;91;1;Europa 2;91_Europa 2;1;Ucrania;UA;1
+765;91_LI;Internacional Express CEX;91;1;Europa 3;91_Europa 3;1;Liechtenstein;LI;1
+766;91_NO;Internacional Express CEX;91;1;Europa 3;91_Europa 3;1;Noruega;NO;1
+767;91_IS;Internacional Express CEX;91;1;Europa 3;91_Europa 3;1;Islandia;IS;1
+768;91_CH;Internacional Express CEX;91;1;Europa 3;91_Europa 3;1;Suiza;CH;1
+769;91_CA;Internacional Express CEX;91;1;Norte América;91_Norte América;1;Canadá;CA;1
+770;91_MX;Internacional Express CEX;91;1;Norte América;91_Norte América;1;México;MX;1
+771;91_US;Internacional Express CEX;91;1;Norte América;91_Norte América;1;Estados Unidos;US;1
+772;91_PR;Internacional Express CEX;91;1;Norte América;91_Norte América;1;Puerto Rico;PR;1
+773;91_CY;Internacional Express CEX;91;1;Oriente 1;91_Oriente 1;1;Chipre;CY;1
+774;91_KR;Internacional Express CEX;91;1;Oriente 1;91_Oriente 1;1;Corea Del Sur;KR;1
+775;91_JP;Internacional Express CEX;91;1;Oriente 1;91_Oriente 1;1;Japón;JP;1
+776;91_MY;Internacional Express CEX;91;1;Oriente 1;91_Oriente 1;1;Malasia;MY;1
+777;91_MT;Internacional Express CEX;91;1;Oriente 1;91_Oriente 1;1;Malta;MT;1
+778;91_EG;Internacional Express CEX;91;1;Oriente 1;91_Oriente 1;1;Egipto;EG;1
+779;91_HK;Internacional Express CEX;91;1;Oriente 1;91_Oriente 1;1;Hong Kong;HK;1
+780;91_ID;Internacional Express CEX;91;1;Oriente 1;91_Oriente 1;1;Indonesia;ID;1
+781;91_SG;Internacional Express CEX;91;1;Oriente 1;91_Oriente 1;1;Singapur;SG;1
+782;91_TH;Internacional Express CEX;91;1;Oriente 1;91_Oriente 1;1;Tailandia;TH;1
+783;91_TW;Internacional Express CEX;91;1;Oriente 1;91_Oriente 1;1;Taiwán;TW;1
+784;91_TR;Internacional Express CEX;91;1;Oriente 1;91_Oriente 1;1;Turquía;TR;1
+785;91_SA;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Arabia Saudí;SA;1
+786;91_AU;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Australia;AU;1
+787;91_BH;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Bahrein;BH;1
+788;91_BD;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Bangladesh;BD;1
+789;91_BN;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Brunei;BN;1
+790;91_BT;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Bután;BT;1
+791;91_KH;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Camboya;KH;1
+792;91_CN;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;China;CN;1
+793;91_JO;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Jordania;JO;1
+794;91_KW;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Kuwait;KW;1
+795;91_LA;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Laos;LA;1
+796;91_LB;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Líbano;LB;1
+797;91_MO;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Macao;MO;1
+798;91_MV;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Maldivas;MV;1
+799;91_MN;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Mongolia;MN;1
+800;91_NP;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Nepal;NP;1
+801;91_NZ;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Nueva Zelanda;NZ;1
+802;91_OM;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Omán;OM;1
+803;91_PK;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Pakistán;PK;1
+804;91_PS;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Palestina;PS;1
+805;91_AE;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Emiratos Árabes Unidos;AE;1
+806;91_PH;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Filipinas;PH;1
+807;91_IN;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;India;IN;1
+808;91_IL;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Israel;IL;1
+809;91_QA;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Qatar;QA;1
+810;91_LK;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Sri Lanka;LK;1
+811;91_VN;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Vietnam;VN;1
+812;91_YE;Internacional Express CEX;91;1;Oriente 2;91_Oriente 2;1;Yemen;YE;1
+813;91_AI;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Anguilla;AI;1
+814;91_AG;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Antigua;AG;1
+815;91_AN;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Antillas Holandesas;AN;1
+816;91_AR;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Argentina;AR;1
+817;91_AW;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Aruba;AW;1
+818;91_BS;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Bahamas;BS;1
+819;91_BB;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Barbados;BB;1
+820;91_BZ;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Belize;BZ;1
+821;91_BM;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Bermuda;BM;1
+822;91_BO;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Bolivia;BO;1
+823;91_BR;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Brasil;BR;1
+824;91_CL;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Chile;CL;1
+825;91_CO;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Colombia;CO;1
+826;91_CR;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Costa Rica;CR;1
+827;91_CU;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Cuba;CU;1
+828;91_MQ;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Martinica;MQ;1
+829;91_MS;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Montserrat;MS;1
+830;91_NI;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Nicaragua;NI;1
+831;91_PA;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Panamá;PA;1
+832;91_DM;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Dominica;DM;1
+833;91_EC;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Ecuador;EC;1
+834;91_SV;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;El Salvador;SV;1
+835;91_GD;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Granada;GD;1
+836;91_GP;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Guadalupe;GP;1
+837;91_GT;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Guatemala;GT;1
+838;91_GY;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Guayana;GY;1
+839;91_GF;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Guayana Francesa;GF;1
+840;91_HT;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Haití;HT;1
+841;91_HN;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Honduras;HN;1
+842;91_KY;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Islas Caimán;KY;1
+843;91_TC;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Islas Turks Y Caicos;TC;1
+844;91_VG;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Is. Virgenes Britanicas;VG;1
+845;91_JM;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Jamaica;JM;1
+846;91_PY;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Paraguay;PY;1
+847;91_PE;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Perú;PE;1
+848;91_DO;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;República Dominicana;DO;1
+849;91_VC;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;San Vicente Y Granadina;VC;1
+850;91_LC;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Santa Lucia;LC;1
+851;91_SR;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Surinam;SR;1
+852;91_TT;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Trinidad Tobago;TT;1
+853;91_UY;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Uruguay;UY;1
+854;91_VE;Internacional Express CEX;91;1;Sudamérica;91_Sudamérica;1;Venezuela;VE;1
+855;90_FR;Internacional Estándar CEX;90;1;Europa 1;90_Europa 1;1;Francia;FR;1
+856;90_DE;Internacional Estándar CEX;90;1;Europa 1;90_Europa 1;1;Alemania;DE;1
+857;90_IT;Internacional Estándar CEX;90;1;Europa 2;90_Europa 2;1;Italia;IT;1
+858;90_BE;Internacional Estándar CEX;90;1;Europa 2;90_Europa 2;1;Bélgica;BE;1
+859;90_GB;Internacional Estándar CEX;90;1;Europa 2;90_Europa 2;1;Reino Unido;GB;1
+860;90_NL;Internacional Estándar CEX;90;1;Europa 2;90_Europa 2;1;Holanda;NL;1
+861;90_LU;Internacional Estándar CEX;90;1;Europa 2;90_Europa 2;1;Luxemburgo;LU;1
+862;90_AT;Internacional Estándar CEX;90;1;Europa 2;90_Europa 2;1;Austria;AT;1
+863;90_PL;Internacional Estándar CEX;90;1;Europa 3;90_Europa 3;1;Polonia;PL;1
+864;90_CZ;Internacional Estándar CEX;90;1;Europa 3;90_Europa 3;1;República Checa;CZ;1
+865;90_DK;Internacional Estándar CEX;90;1;Europa 3;90_Europa 3;1;Dinamarca;DK;1
+866;90_HU;Internacional Estándar CEX;90;1;Europa 3;90_Europa 3;1;Hungría;HU;1
+867;90_CH;Internacional Estándar CEX;90;1;Europa 3;90_Europa 3;1;Suiza;CH;1
+868;90_SE;Internacional Estándar CEX;90;1;Europa 4;90_Europa 4;1;Suecia;SE;1
+869;90_IE;Internacional Estándar CEX;90;1;Europa 4;90_Europa 4;1;Irlanda;IE;1
+870;90_SK;Internacional Estándar CEX;90;1;Europa 4;90_Europa 4;1;Eslovaquia;SK;1
+871;90_SI;Internacional Estándar CEX;90;1;Europa 4;90_Europa 4;1;Eslovenia;SI;1
+872;90_RO;Internacional Estándar CEX;90;1;Europa 4;90_Europa 4;1;Rumanía;RO;1
+873;90_LT;Internacional Estándar CEX;90;1;Europa 4;90_Europa 4;1;Lituania;LT;1
+874;90_LV;Internacional Estándar CEX;90;1;Europa 4;90_Europa 4;1;Letonia;LV;1
+875;90_EE;Internacional Estándar CEX;90;1;Europa 4;90_Europa 4;1;Estonia;EE;1
+876;90_FI;Internacional Estándar CEX;90;1;Europa 4;90_Europa 4;1;Finlandia;FI;1
+877;90_HR;Internacional Estándar CEX;90;1;Europa 5;90_Europa 5;1;Croacia;HR;1
+878;90_RS;Internacional Estándar CEX;90;1;Europa 5;90_Europa 5;1;Serbia;RS;1
+879;90_NO;Internacional Estándar CEX;90;1;Europa 5;90_Europa 5;1;Noruega;NO;1
+880;90_BG;Internacional Estándar CEX;90;1;Europa 5;90_Europa 5;1;Bulgaria;BG;1
+881;90_GR;Internacional Estándar CEX;90;1;Europa 6;90_Europa 6;1;Grecia;GR;1
+882;90_TR;Internacional Estándar CEX;90;1;Europa 6;90_Europa 6;1;Turquía;TR;1

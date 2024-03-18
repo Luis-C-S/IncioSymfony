@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping">
+    <entity name="App\Entity\CoRates">
+        
+        <id name="id" type="integer">
+            <generator />
+        </id>              
+        <field name="product" length="50" />       
+        <field name="id_product" length="50" />       
+        <field name="zone" length="50" />         
+        <field name="id_zone" length="50" />     
+        <field name="weight" length="30" />        
+        <field name="kg_fraction" type="integer" />        
+        <field name="rate" type="decimal" precision="10" scale="2"  />
+        <field name="fprice" type="decimal" precision="10" scale="2" nullable="true" /> 
+
+    </entity>
+</doctrine-mapping>

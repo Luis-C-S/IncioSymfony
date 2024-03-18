@@ -31,6 +31,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-3">
+				<div class="row" style="height: 25px"></div>
 				<h3 class="active">Selecciona un producto</h3>
 				<table class="table table-primary table-hover">
 					{% for productData in productTable %}
@@ -42,7 +43,7 @@
 					{% endfor %}
 				</table>
 			</div>
-			<div class="col-9" id="detalles">Los detalles irán aquí</div>
+			<div class="col-9" id="detalles"></div>
 		</div>
 	</div>
 
@@ -144,7 +145,23 @@
             xhr.send(JSON.stringify({ID_country: idCountry, newCountry_Active: newActive}));
 		
 	}
-	
+
+	 //función para obtener un path para el link "cargar tarifas" una vez selecciondo un producto
+function updatePath(element) {
+    event.preventDefault();
+    var product = element.getAttribute('product').replace(/\s+/g, '');
+    var newPath = '/Rates' + product;
+
+    // Modificar el atributo href del elemento con el nuevo valor de la ruta
+    element.setAttribute('href', newPath);
+
+    console.log("Nueva ruta generada:", newPath);
+
+    // Navegar hacia la nueva ruta
+    window.location.href = newPath;
+}
+
+
 	function showdetail(response) {
         var zones = {};  // Objeto para almacenar información única sobre las zonas
 
@@ -172,10 +189,12 @@
             }
         });
 
-        // Construir la tabla utilizando la información de 'zones'
         var text = "<div class='row pt-4'>" + 				   		
-							"<div class='col-8'><h3 class='active'>" + response[1].product + "</h3></div>" +
-							"<div class='col-4'><button class=" + (response[1].product_active? "'btn btn-outline-danger'" : "'btn btn-outline-success'") + " onclick= 'updateProduct(this)' productActive= '" + response[1].product_active + "' product= '" + response[1].product + "'>" + (response[1].product_active? 'Desactivar producto' : 'Activar producto') + "</button></div>" +						
+							"<div class='col-7'><h3 class='active'>" + response[1].product + "</h3></div>" +
+							"<div class='col-4'>" +
+							"<button class=" + (response[1].product_active? "'btn btn-outline-danger btn-sm'" : "'btn btn-outline-success'") + " onclick= 'updateProduct(this)' productActive= '" + response[1].product_active + "' product= '" + response[1].product + "'>" + (response[1].product_active? 'Desactivar producto' : 'Activar producto') + "</button>" +
+							"<a href='#' id='dynamicLink' product='" + response[1].product + "' onclick='updatePath(this)'  style='text-align: left'>Consultar/editar tarifas</a>" +
+							"</div>" +						
 					"</div>" +
 				   	"<table class='table table-secondary w-100'>" +
                    	"<tr>" +

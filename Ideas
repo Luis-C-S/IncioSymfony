@@ -1,0 +1,33 @@
+//Encontrar el nº de array por zona y peso:
+        // Supongamos que tu array de arrays se llama 'arrayPrincipal'
+        const arrayPrincipal = [
+        { id: 1, zone: 'A', weight: 10, rate: 5 },
+        { id: 2, zone: 'B', weight: 20, rate: 8 },
+        { id: 3, zone: 'C', weight: 30, rate: 10 },
+        // Más elementos...
+        ];
+
+        // Valores que estás buscando
+        const zonaBuscada = 'B';
+        const pesoBuscado = 20;
+
+        // Variable para almacenar el número del array encontrado
+        let numeroArrayEncontrado = -1;
+
+        // Recorremos el array principal
+        for (let i = 0; i < arrayPrincipal.length; i++) {
+        const elemento = arrayPrincipal[i];
+        
+        // Verificamos si los valores coinciden
+        if (elemento.zone === zonaBuscada && elemento.weight === pesoBuscado) {
+            numeroArrayEncontrado = i;
+            break; // Terminamos el bucle una vez que encontramos el elemento
+        }
+        }
+
+        // Verificamos si se encontró el elemento
+        if (numeroArrayEncontrado !== -1) {
+        console.log("El número del array que tiene los valores buscados es:", numeroArrayEncontrado);
+        } else {
+        console.log("No se encontró ningún array con los valores especificados.");
+        }
