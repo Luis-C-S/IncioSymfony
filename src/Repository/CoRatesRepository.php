@@ -37,6 +37,19 @@ class CoRatesRepository extends ServiceEntityRepository
         return $query->getArrayResult();
     }
 
+    public function showRatesPaqStandardInternacional()
+    {
+        $entityManager = $this->getEntityManager();
+
+        $query = $entityManager->createQuery(
+            'SELECT c.id, c.product, c.zone, c.id_zone, c.weight, c.kg_fraction, c.rate, c.fprice
+             FROM App\Entity\CoRates c
+             WHERE c.product = :product'
+        )->setParameter('product', 'Paq Standard Internacional');
+
+        return $query->getArrayResult();
+    }
+
     //    public function findOneBySomeField($value): ?CoRates
     //    {
     //        return $this->createQueryBuilder('c')

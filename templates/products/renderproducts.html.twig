@@ -191,9 +191,9 @@ function updatePath(element) {
 
         var text = "<div class='row pt-4'>" + 				   		
 							"<div class='col-7'><h3 class='active'>" + response[1].product + "</h3></div>" +
-							"<div class='col-4'>" +
-							"<button class=" + (response[1].product_active? "'btn btn-outline-danger btn-sm'" : "'btn btn-outline-success'") + " onclick= 'updateProduct(this)' productActive= '" + response[1].product_active + "' product= '" + response[1].product + "'>" + (response[1].product_active? 'Desactivar producto' : 'Activar producto') + "</button>" +
-							"<a href='#' id='dynamicLink' product='" + response[1].product + "' onclick='updatePath(this)'  style='text-align: left'>Consultar/editar tarifas</a>" +
+							"<div class='col-3'>" +
+							"<button class=" + (response[1].product_active? "'btn btn-outline-danger btn-sm'" : "'btn btn-outline-success btn-sm'") + " onclick= 'updateProduct(this)' productActive= '" + response[1].product_active + "' product= '" + response[1].product + "'>" + (response[1].product_active? 'Desactivar producto' : 'Activar producto') + "</button>" +
+							"<a href='#' id='dynamicLink' product='" + response[1].product + "' onclick='updatePath(this)'  style='text-align: right'>Consultar/editar tarifas</a>" +
 							"</div>" +						
 					"</div>" +
 				   	"<table class='table table-secondary w-100'>" +

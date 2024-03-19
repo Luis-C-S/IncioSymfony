@@ -94,3 +94,8 @@ $success: #7952b3;
 body {
   padding: 1.5rem;
 }
+
+.custom-input.form-control:hover {
+  border-color: #80bdff; /* Cambia el color del borde cuando se pasa el cursor sobre el input */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Agrega una sombra al input */
+}
