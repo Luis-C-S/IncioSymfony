@@ -54,9 +54,7 @@
     
     <script>
 	function updateProduct(element) {
-		console.log(element.innerHTML);
-		console.log(element.getAttribute('product'));
-		console.log(element.getAttribute('productActive'));
+		
 		
 
 		var product = element.getAttribute('product');
@@ -201,7 +199,7 @@ function updatePath(element) {
                   	"<th class ='col-2'>Zona</th>" +
                    	"<th class ='col-10'>Paises</th>" +
                   	"</tr>";
-					console.log('productActive = ' + response[1].product_active);
+					
 
         for (var zone in zones) {
             var zoneClass = (zones[zone].active && zones[zone].productActive) ? 'text-success' : 'text-danger';
@@ -233,7 +231,7 @@ function updatePath(element) {
 	                        var response = JSON.parse(xhr.responseText);
 	                        // Aquí puedes actualizar la interfaz de usuario con los detalles del producto
 							showdetail(response);
-	                        console.log(response);
+	                        
 	                    } else {
 	                        // Maneja errores si es necesario
 	                        console.error('Error al cargar detalles del producto');

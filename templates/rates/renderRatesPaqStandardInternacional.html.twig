@@ -35,7 +35,10 @@
         <div class="col-8">
             <div class="row" style="height: 50px"></div>
             <div class="row" style="height: 70px text-align: bottom"><h3>Precios   {{rates[1].product}}</h3></div>
-            <div id='ratesTable'></div>
+            <form action="">
+                <div id='ratesTable'></div>
+                <button onclick='updateRates()'>'</button>
+            </form>
         </div>
     </div>
 </div>
@@ -48,6 +51,11 @@
 {% block javascripts %}
     {{ encore_entry_script_tags('app') }}
       <script>
+
+      function updateRates(){
+        console.log('updt');
+      }
+
         document.addEventListener('DOMContentLoaded', function() {
              
         var rates = {{ rates|json_encode|raw }};
@@ -87,8 +95,7 @@
 
 
         document.getElementById('ratesTable').innerHTML = html;
-        console.log(html);    
-        console.log(weights);  
+      
         });
     </script>
 {% endblock %}

@@ -35,7 +35,10 @@
         <div class="col-6">
             <div class="row" style="height: 50px"></div>
             <div class="row" style="height: 70px text-align: bottom"><h3>Precios   {{rates[1].product}}</h3></div>
-            <div id='ratesTable'></div>
+            <form>
+                <div id='ratesTable'></div>
+                <button class='btn btn-form btn-primary align-end ' onclick='updateRates(event)'>Guardar</button>
+            </form>
         </div>
     </div>
 </div>
@@ -48,6 +51,96 @@
 {% block javascripts %}
     {{ encore_entry_script_tags('app') }}
       <script>
+
+        function updateRates(event) {
+            event.preventDefault(); // Evitar que el formulario se envíe y la página se recargue
+            
+            var inputs = document.querySelectorAll('[name="inputs"]'); 
+            console.log('inputs iniciales ',inputs.length)           
+            var inputData = [];
+            var ids = []
+
+            inputs.forEach(function(input) {
+                var id = input.id; 
+                var idVal = parseInt(id);
+                var zone = input.getAttribute('zone');
+                var weight = input.getAttribute('weight');                    
+                var rate = input.value;
+                inputData.push({ id: id, zone: zone, weight: weight, rate: rate });
+                ids.push({id: idVal});                
+            });
+            
+
+            var ids = ids.sort(function(a,b){
+                return a.id - b.id;
+            });
+
+                //hago un array de Distinct Zones con las zonas de inputData:
+
+                var zones = [];
+                inputData.forEach(function(element){
+                    if(!zones.includes(element.zone)){
+                        zones.push(element.zone)
+                    }
+                });
+
+                //recorro el array de Distinct Zones para definir en cada una:
+                //   -una variable con ids disponibles en el formulario
+                //   -variable para ids que se tienen que calcular en base a "Kg Adicional"
+                //   -el rate del kg adicional
+                //   -retornar un nuevo array [id, rate] mezcla de los rates disponibles y los calculados
+
+                zones.forEach(function(zone){
+                    var formIds = [];         
+                    var kgAdd = {};                    
+                    console.log('forEach Zone: ',zone);
+                    inputData.forEach(function(element){                        
+                        if(element.zone==zone && element.weight !== 'Por kg adicional'){
+                            formIds.push({
+                                'id' :element.id,
+                                'rate': element.rate
+                        })
+                        };
+                        if(element.zone==zone && element.weight=='Por kg adicional'){
+                            kgAdd = {
+                                'id': element.id,
+                                'rate': element.rate
+                            };
+                        }
+                                               
+                    });
+                    console.log('formsId: ', formIds); 
+                    console.log('Kg Adicional= ', kgAdd);
+                    //calcular el id máximo de los disponibles en formulario de cada zona
+                    var intIds = formIds.map(function(item) {
+                        return parseInt(item.id);
+                    });
+                    var start = Math.max(...intIds)+1;
+                    var dif = parseInt(kgAdd.id) - start;
+                    var lastRate = formIds[formIds.length -1].rate;
+                    var calculatedRates = formIds;
+
+                    for(i=start; i < kgAdd.id; i++){
+                        calculatedRates.push({
+                            'id': i.toString(),
+                            'rate': (parseInt(lastRate) + (kgAdd.rate * (i-(start-1)))).toFixed(2)
+                        })
+                    } 
+
+                    console.log('start= ', start);
+                    console.log('dif= ', dif);
+                    console.log('CalculatedRates= ', calculatedRates)
+                });
+                            
+                console.log('ids:',ids);
+                console.log('inputData: ',inputData);
+                console.log('zones: ',zones);
+
+            };
+
+            
+      
+
         document.addEventListener('DOMContentLoaded', function() {
              
         var rates = {{ rates|json_encode|raw }};
@@ -77,7 +170,7 @@
                         break; 
                     }
                 }
-                html += '<td><input class="form-control" style="text-align: right" value="' + rates[result].rate + '" id="' + rates[result].id + '"></td>';                
+                html += '<td><input name="inputs" class="form-control" style="text-align: right" zone="'+ rates[result].zone + '" weight="'+ rates[result].weight + '" kg_fraction="'+ rates[result].kg_fraction + '"value="' + rates[result].rate + '" id="' + rates[result].id + '"></td>';                
             }
 
             html += '</tr>';
@@ -87,8 +180,7 @@
 
 
         document.getElementById('ratesTable').innerHTML = html;
-        console.log(html);    
-        console.log(weights);  
+         
         });
     </script>
 {% endblock %}
