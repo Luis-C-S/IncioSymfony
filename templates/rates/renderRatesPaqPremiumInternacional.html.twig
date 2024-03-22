@@ -55,8 +55,7 @@
         function updateRates(event) {
             event.preventDefault(); // Evitar que el formulario se envíe y la página se recargue
             
-            var inputs = document.querySelectorAll('[name="inputs"]'); 
-            console.log('inputs iniciales ',inputs.length)           
+            var inputs = document.querySelectorAll('[name="inputs"]');                    
             var inputData = [];
             var ids = []
 
@@ -65,11 +64,10 @@
                 var idVal = parseInt(id);
                 var zone = input.getAttribute('zone');
                 var weight = input.getAttribute('weight');                    
-                var rate = input.value;
+                var rate = input.value.replace(/,/g, '.');
                 inputData.push({ id: id, zone: zone, weight: weight, rate: rate });
                 ids.push({id: idVal});                
             });
-            
 
             var ids = ids.sort(function(a,b){
                 return a.id - b.id;
@@ -117,7 +115,8 @@
                     });
                     var start = Math.max(...intIds)+1;
                     var dif = parseInt(kgAdd.id) - start;
-                    var lastRate = formIds[formIds.length -1].rate;
+                    var lastRate = parseInt(formIds[formIds.length -1].rate);
+
                     var calculatedRates = formIds;
 
                     for(i=start; i < kgAdd.id; i++){
@@ -136,9 +135,38 @@
                 console.log('inputData: ',inputData);
                 console.log('zones: ',zones);
 
+                var inputData = [];
+                var ids = []
+
             };
 
-            
+            function limitValue(input) {
+                // Convertir el valor a un número con dos decimales
+                let value = parseFloat(input.value.replace(/,/g, '.'));
+                console.log('parsefloat',value);
+                if (isNaN(value)) {
+                    value = 0; // Establecer en 0 si no es un número válido
+                } else {
+                    value = Math.min(Math.max(value, 0), 1000); // Limitar entre 0 y 1000
+                }
+
+                // Formatear el valor con una máscara de formato específica
+                let formattedValue = value.toLocaleString('es-ES', {
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2
+                });
+
+                // Actualizar el valor del input
+                input.value = formattedValue;
+            }
+
+            function pointToComa(input) {
+                input.value = input.value.replace(/\./g, ',');
+            }
+
+
+
+   
       
 
         document.addEventListener('DOMContentLoaded', function() {
@@ -170,7 +198,7 @@
                         break; 
                     }
                 }
-                html += '<td><input name="inputs" class="form-control" style="text-align: right" zone="'+ rates[result].zone + '" weight="'+ rates[result].weight + '" kg_fraction="'+ rates[result].kg_fraction + '"value="' + rates[result].rate + '" id="' + rates[result].id + '"></td>';                
+                html += '<td class="in"><input name="inputs" type="text" class="form-control in" style="text-align: right" zone="'+ rates[result].zone + '" weight="'+ rates[result].weight + '" kg_fraction="'+ rates[result].kg_fraction + '" value="' + parseFloat(rates[result].rate).toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '" id="' + rates[result].id + '" onblur="limitValue(this)" oninput="pointToComa(this)"></td>';                
             }
 
             html += '</tr>';
