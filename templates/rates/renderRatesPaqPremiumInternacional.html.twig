@@ -82,11 +82,15 @@
                     }
                 });
 
+                
+
                 //recorro el array de Distinct Zones para definir en cada una:
                 //   -una variable con ids disponibles en el formulario
                 //   -variable para ids que se tienen que calcular en base a "Kg Adicional"
                 //   -el rate del kg adicional
                 //   -retornar un nuevo array [id, rate] mezcla de los rates disponibles y los calculados
+                
+                var calculatedRates = [];
 
                 zones.forEach(function(zone){
                     var formIds = [];         
@@ -116,11 +120,10 @@
                     var start = Math.max(...intIds)+1;
                     var dif = parseInt(kgAdd.id) - start;
                     var lastRate = parseInt(formIds[formIds.length -1].rate);
-
-                    var calculatedRates = formIds;
+                   
 
                     for(i=start; i < kgAdd.id; i++){
-                        calculatedRates.push({
+                        formIds.push({
                             'id': i.toString(),
                             'rate': (parseInt(lastRate) + (kgAdd.rate * (i-(start-1)))).toFixed(2)
                         })
@@ -128,24 +131,31 @@
 
                     console.log('start= ', start);
                     console.log('dif= ', dif);
-                    console.log('CalculatedRates= ', calculatedRates)
+                    
+                    formIds.forEach(e => {
+                        calculatedRates = calculatedRates.concat({
+                            'id': e.id,
+                            'rate': e.rate                            
+                        });
+                        // Otra opción utilizando el operador de propagación
+                        // calculatedRates = [...calculatedRates, { 'id': e.id, 'rate': e.rate }];
+                    });
+                    
                 });
-                            
-                console.log('ids:',ids);
-                console.log('inputData: ',inputData);
-                console.log('zones: ',zones);
-
+                console.log('CalculatedRates= ', calculatedRates);               
+               
                 var inputData = [];
                 var ids = []
 
             };
 
+            //dar formato numérico dos decimales con coma.
             function limitValue(input) {
                 // Convertir el valor a un número con dos decimales
                 let value = parseFloat(input.value.replace(/,/g, '.'));
                 console.log('parsefloat',value);
                 if (isNaN(value)) {
-                    value = 0; // Establecer en 0 si no es un número válido
+                    alert('El valor introducido debe ser numérico');
                 } else {
                     value = Math.min(Math.max(value, 0), 1000); // Limitar entre 0 y 1000
                 }
@@ -198,7 +208,7 @@
                         break; 
                     }
                 }
-                html += '<td class="in"><input name="inputs" type="text" class="form-control in" style="text-align: right" zone="'+ rates[result].zone + '" weight="'+ rates[result].weight + '" kg_fraction="'+ rates[result].kg_fraction + '" value="' + parseFloat(rates[result].rate).toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '" id="' + rates[result].id + '" onblur="limitValue(this)" oninput="pointToComa(this)"></td>';                
+                html += '<td class="in"><input name="inputs" type="text" class="form-control in" style="text-align: right" zone="'+ rates[result].zone + '" weight="'+ rates[result].weight + '" kg_fraction="'+ rates[result].kg_fraction + '" value="' + parseFloat(rates[result].rate).toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '" id="' + rates[result].id + '" onchange="limitValue(this)" oninput="pointToComa(this)"></td>';                
             }
 
             html += '</tr>';
