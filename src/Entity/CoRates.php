@@ -19,7 +19,7 @@ class CoRates
     private ?string $weight = null;
     private ?int $kg_fraction = null;
     private $rate = null;
-    private $fprice = null;
+    private $rate_backup = null;
 
     public function getId(): ?int
     {
@@ -110,14 +110,14 @@ class CoRates
         return $this;
     }
 
-    public function getFprice(): ?float
+    public function getRate_backup(): ?float
     {
-        return $this->fprice;
+        return $this->rate_backup;
     }
 
-    public function setFprice(?float $fprice): static
+    public function setRate_backup(?float $rate_backup): static
     {
-        $this->fprice = $fprice;
+        $this->rate_backup = $rate_backup;
 
         return $this;
     }

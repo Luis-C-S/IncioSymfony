@@ -12,7 +12,7 @@
         <field name="weight" length="30" />        
         <field name="kg_fraction" type="integer" />        
         <field name="rate" type="decimal" precision="10" scale="2"  />
-        <field name="fprice" type="decimal" precision="10" scale="2" nullable="true" /> 
+        <field name="rate_backup" type="decimal" precision="10" scale="2" nullable="false" /> 
 
     </entity>
 </doctrine-mapping>

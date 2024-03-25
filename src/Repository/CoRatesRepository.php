@@ -29,7 +29,7 @@ class CoRatesRepository extends ServiceEntityRepository
         $entityManager = $this->getEntityManager();
 
         $query = $entityManager->createQuery(
-            'SELECT c.id, c.product, c.zone, c.id_zone, c.weight, c.kg_fraction, c.rate, c.fprice
+            'SELECT c.id, c.product, c.zone, c.id_zone, c.weight, c.kg_fraction, c.rate, c.rate_backup
              FROM App\Entity\CoRates c
              WHERE c.product = :product'
         )->setParameter('product', 'Paq Premium Internacional');
@@ -42,7 +42,7 @@ class CoRatesRepository extends ServiceEntityRepository
         $entityManager = $this->getEntityManager();
 
         $query = $entityManager->createQuery(
-            'SELECT c.id, c.product, c.zone, c.id_zone, c.weight, c.kg_fraction, c.rate, c.fprice
+            'SELECT c.id, c.product, c.zone, c.id_zone, c.weight, c.kg_fraction, c.rate, c.rate_backup
              FROM App\Entity\CoRates c
              WHERE c.product = :product'
         )->setParameter('product', 'Paq Standard Internacional');
